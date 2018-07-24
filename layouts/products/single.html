@@ -1,0 +1,35 @@
+{{ define "title" }}
+    {{ .Title }} &ndash; {{ .Site.Params.Title }}
+{{ end }}
+
+{{ define "main" }}
+	{{ partial "page-title" (dict "category" (i18n "product") "title" .Title "page" .Params)}}
+
+	 <!-- Use page-specific blockloader, since we need to divide up some sections -->
+    {{- range .Params.blocks -}}
+        {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "media-feature" -}}{{ partial "blocks/media-feature" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "narrow-feature" -}}{{ partial "blocks/narrow-feature" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "call-to-action" -}}{{ partial "blocks/cta" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "1up" -}}{{ partial "blocks/1up" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "2up" -}}{{ partial "blocks/2up" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "1up-media" -}}{{ partial "blocks/1up-media" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "card-grid" -}}{{ partial "blocks/card-grid" (dict "Params" .) }}{{- end -}}
+		{{- if eq .template "grid-list" -}}{{ partial "blocks/grid-list" (dict "Params" .) }}{{- end -}}
+		{{- if eq .template "accordion" -}}{{ partial "blocks/accordion" (dict "Params" .) }}{{- end -}}
+    {{- end -}}
+
+	{{ with .Content }}
+		<section class="container mx-auto mt-12 px-2 md:px-8 pb-8 text-grey-darker">
+			{{ . }}
+		</section>
+	{{ end }}
+
+    <div class="mt-12 md:mt-24 bg-theme-gradient border-top-theme w-full">
+        {{- range .Params.blocks -}}
+            {{- if eq .template "action-feature" -}}{{ partial "blocks/action-feature" (dict "Params" .) }}{{- end -}}
+            {{- if eq .template "narrow-cta" -}}{{ partial "blocks/narrow-cta" (dict "Params" .) }}{{- end -}}
+        {{- end -}}
+    </div>
+
+{{ end }}

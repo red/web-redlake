@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+<div>
+    {{ partial "page-title" (dict "title" .Title "subtitle" .Params.subtitle "page" .Params)}}
+
+    <div class="container mx-auto mt-12 px-2 md:px-8">
+        <div class="grid grid-columns-1 md:grid-columns-2">
+
+            <div class="px-2 md:px-8 py-4 text-rl-gray">
+                <h3 class="font-semibold text-2xl text-rl-gray rl-l-title-underline">{{ i18n "contact_heading" }}</h3>
+
+                <div class="text-grey-darker">
+                    {{ .Content }}
+                </div>
+            </div>
+
+            <div class="px-2 md:px-8 py-4 text-rl-gray">
+                <form class="w-full max-w-sm">
+                    <div class="md:flex md:items-center mb-6">
+                        <div class="md:w-1/3">
+                            <label class="block text-grey-darker font-bold md:text-right mb-1 md:mb-0 pr-4" for="full-name">
+                                Full Name
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <input class="text-input" id="full-name" name="full-name" type="text" placeholder="Bob Barker" required>
+                        </div>
+                    </div>
+                    <div class="md:flex md:items-center mb-6">
+                        <div class="md:w-1/3">
+                            <label class="block text-grey-darker font-bold md:text-right mb-1 md:mb-0 pr-4" for="email">
+                                Email
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <input type="email" class="text-input" id="email" name="email" placeholder="woz@apple.com" required>
+                        </div>
+                    </div>
+                    <div class="md:flex md:items-center mb-6">
+                        <div class="md:w-1/3">
+                            <label class="block text-grey-darker font-bold md:text-right mb-1 md:mb-0 pr-4" for="phone">
+                                Phone Number
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <input class="text-input w-full" id="phone" name="phone" type="tel" placeholder="415.555.5555" required>
+                        </div>
+                    </div>
+                    <div class="md:flex md:items-start mb-6">
+                        <div class="pt-2 md:w-1/3">
+                            <label class="block text-grey-darker font-bold md:text-right mb-1 md:mb-0 pr-4" for="message">
+                                Message
+                            </label>
+                        </div>
+                        <div class="md:w-2/3">
+                            <textarea class="text-input" id="message" name="message" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <div class="md:flex md:items-center">
+                        <div class="md:w-1/3"></div>
+                        <div class="md:w-2/3">
+                        <input type="submit" class="btn btn-red" value="{{ i18n "submitBtn" }}">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+{{ end }}

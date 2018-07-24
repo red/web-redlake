@@ -1,0 +1,75 @@
+/**
+ * Classes built around theme colors (These MUST be defined, as they're used in Hugo theme templates)
+ */
+
+.text-theme-primary {
+	@apply .text-rl-gray;
+}
+
+.bg-theme-primary {
+	@apply .bg-rl-golden;
+}
+
+.bg-theme-gradient {
+	background-image: linear-gradient(
+		to bottom,
+		config('colors.rl-golden'),
+		config('colors.rl-golden-darker')
+	);
+}
+
+.bg-theme-gradient-reverse {
+	background-image: linear-gradient(
+		to top,
+		config('colors.rl-golden'),
+		config('colors.rl-golden-darker')
+	);
+}
+
+.mobile-theme-menu {
+	@apply .text-blue-lighter .border-blue-light;
+}
+
+.mobile-theme-menu:hover {
+	@apply .text-white .border-white;
+}
+
+/**
+ * Other site-specific styles
+ */
+
+.bg-green-gradient {
+	background-image: linear-gradient(
+		to left,
+		config('colors.rl-green'),
+		config('colors.rl-green-darker')
+	);
+}
+
+.border-top-theme {
+	border-top: 1rem solid config('colors.rl-golden-darker');
+}
+
+.ornament {
+	@apply .absolute .w-12 .h-12;
+}
+
+.ornament-l {
+	@apply .absolute .w-24 .h-24;
+}
+
+.ornament-xl {
+	@apply .absolute;
+
+	width: 12rem;
+	height: 12rem;
+}
+
+@screen md {
+	.ornament-xl {
+		@apply .absolute;
+
+		width: 25rem;
+		height: 24rem;
+	}
+}

@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+    <!-- Use page-specific blockloader, since we need to divide up some sections -->
+    {{- range .Params.blocks -}}
+        {{- if eq .template "hero" -}}{{ partial "blocks/hero" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "media-feature" -}}{{ partial "blocks/media-feature" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "narrow-feature" -}}{{ partial "blocks/narrow-feature" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "call-to-action" -}}{{ partial "blocks/cta" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "1up" -}}{{ partial "blocks/1up" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "2up" -}}{{ partial "blocks/2up" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "1up-media" -}}{{ partial "blocks/1up-media" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "card-grid" -}}{{ partial "blocks/card-grid" (dict "Params" .) }}{{- end -}}
+        {{- if eq .template "grid-list" -}}{{ partial "blocks/grid-list" (dict "Params" .) }}{{- end -}}
+    {{- end -}}
+
+    {{ .Content }}
+
+    <div class="container mx-auto px-2 md:px-8 flex justify-end">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center bg-rl-red text-white font-bold cursor-pointer">&gt;</div>
+    </div>
+
+	<div class="w-full h-4 mt-12 md:mt-24 bg-rl-golden-darker"></div>
+    <div class="bg-theme-gradient curve-top w-full">
+        {{- range .Params.blocks -}}
+            {{- if eq .template "action-feature" -}}{{ partial "blocks/action-feature" (dict "Params" .) }}{{- end -}}
+            {{- if eq .template "narrow-cta" -}}{{ partial "blocks/narrow-cta" (dict "Params" .) }}{{- end -}}
+        {{- end -}}
+    </div>
+
+{{ end }}

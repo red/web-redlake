@@ -1,0 +1,24 @@
+{
+	"name": "fullstack-site",
+	"version": "0.0.1",
+	"author": "Grayscale Digital",
+	"license": "Private, all rights reserved",
+	"private": true,
+	"scripts": {
+		"postinstall": "cd themes/featherweight && yarn install",
+		"start": "themes/featherweight/node_modules/.bin/concurrently \"cd themes/featherweight && yarn run watch\" \"hugo server --disableFastRender\"",
+		"dev": "cd themes/featherweight && yarn run dev && cd ../.. && hugo",
+		"build": "cd themes/featherweight && yarn run build && cd ../.. && hugo",
+		"fmt": "themes/featherweight/node_modules/.bin/prettier --write \"src/**/*.{js,ts,scss,css}\"",
+		"lint-styles": "themes/featherweight/node_modules/.bin/stylelint \"src/styles/**/*.css\"",
+		"lint": "themes/featherweight/node_modules/.bin/eslint --config \"themes/featherweight/.eslintrc.json\" \"src/js/**/*.{js,ts}\""
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "yarn run lint && yarn run lint-styles && yarn run fmt"
+		}
+	},
+	"devDependencies": {
+		"husky": "^1.0.0-rc.8"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"extends": "./themes/featherweight/tsconfig",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@npm/*": ["themes/featherweight/node_modules/*"],
+			"@theme/*": ["themes/featherweight/src/js/*"]
+		}
+	}
+}

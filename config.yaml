@@ -1,0 +1,164 @@
+---
+baseURL: "https://fullstack.technology/"
+title: Fullstack Technologies
+languageCode: "en-us"
+metaDataFormat: yaml
+theme: "featherweight"
+pluralizeListTitles: false
+enableRobotsTXT: true
+defaultContentLanguage: "en"
+enableMissingTranslationPlaceholders: true
+paginate: 5 # Number of posts per page
+
+permalinks:
+  blog: /:section/:year/:month/:slug/
+  case-studies: /:section/:slug/
+  products: /:section/:slug/
+  services: /:section/:slug/
+
+taxonomies:
+  category: category
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - JSON
+  section:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - JSON
+
+languages:
+  en:
+    LanguageName: "English"
+    params:
+      Title: "Fullstack Technologies"
+      CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
+    menu:
+      main:
+        - Name: "Services"
+          Weight: 1
+          Identifier: "services"
+          URL: "/services/"
+        - Name: "Products"
+          Weight: 2
+          Identifier: "products"
+          URL: "/products/"
+        - Name: "Case Studies"
+          Weight: 3
+          Identifier: "case-studies"
+          URL: "/case-studies/"
+        - Name: "Blog"
+          Weight: 4
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "Contact Us"
+          Weight: 5
+          Identifier: "contact"
+          URL: "/contact/"
+  fr:
+    LanguageName: "Français"
+    params:
+      Title: "Fullstack Technologies"
+      CopyrightHTML: "Droits d'auteur &#xA9; 2018 FullStack Technologies Ltd"
+    blackfriday:
+      angledQuotes: true
+    menu:
+      main:
+        - Name: "Prestations de service"
+          Weight: 1
+          Identifier: "services"
+          URL: "/services/"
+        - Name: "Des produits"
+          Weight: 2
+          Identifier: "products"
+          URL: "/products/"
+        - Name: "Études de cas"
+          Weight: 3
+          Identifier: "case-studies"
+          URL: "/case-studies/"
+        - Name: "Blog"
+          Weight: 4
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "Contactez nous"
+          Weight: 5
+          Identifier: "contact"
+          URL: "/contact/"
+  cn:
+    LanguageName: "简体中文"
+    params:
+      Title: "Fullstack Technologies"
+      CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
+    menu:
+      main:
+        - Name: "服务"
+          Weight: 1
+          Identifier: "services"
+          URL: "/services/"
+        - Name: "制品"
+          Weight: 2
+          Identifier: "products"
+          URL: "/products/"
+        - Name: "实例探究"
+          Weight: 3
+          Identifier: "case-studies"
+          URL: "/case-studies/"
+        - Name: "博客"
+          Weight: 4
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "联系我们"
+          Weight: 5
+          Identifier: "contact"
+          URL: "/contact/"
+
+params:
+  navigation:
+    social:
+      - Name: "Reddit"
+        Weight: 1
+        Identifier: "reddit-alien"
+        URL: "https://www.reddit.com/r/redlang/"
+      - Name: "Facebook"
+        Weight: 2
+        Identifier: "facebook-square"
+        URL: "https://facebook.com"
+      - Name: "Twitter"
+        Weight: 3
+        Identifier: "twitter"
+        URL: "https://twitter.com/red_lang"
+      - Name: "Gitter"
+        Weight: 4
+        Identifier: "gitter"
+        URL: "https://gitter.im/red/red"
+      - Name: "GitHub"
+        Weight: 5
+        Identifier: "github"
+        URL: "https://github.com/red/red"
+      - Name: "Telegram"
+        Weight: 6
+        Identifier: "telegram"
+        URL: "https://t.me/redofficial"
+    ecosystem:
+      - Name: "Red Language"
+        Weight: 1
+        Identifier: "redlang"
+        URL: "https://red-lang.org"
+      - Name: "Red Foundation"
+        Weight: 2
+        Identifier: "foundation"
+        URL: "https://foundation.red-lang.org"
+      - Name: "Red ICO"
+        Weight: 3
+        Identifier: "ico"
+        URL: "https://ico.red-lang.org"
+      - Name: "Fullstack Technologies"
+        Weight: 4
+        Identifier: "fullstack"
+        URL: "https://fullstack.red-lang.org"
+---

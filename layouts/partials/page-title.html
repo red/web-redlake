@@ -1,0 +1,40 @@
+{{- $hasBg := (isset .page "bg_image") -}}
+{{- $hasSplash := (and (isset .page "splash_type") (isset .page "splash_src")) -}}
+{{- $videoSplash := (eq .page.splash_type "video") -}}
+{{- $hasCta := (and (isset .page "cta_text") (isset .page "cta_url")) -}}
+<div class="relative {{ cond (or $hasBg $hasSplash) "h-80" "flex items-center h-32" }} {{ if $hasSplash }}mb-48 md:mb-100{{end}} {{ if not $hasBg }}bg-theme-gradient{{ end }} -mt-px md:pt-16 pb-12 bg-center bg-no-repeat bg-cover"
+{{ if $hasBg }} style="background-image: url('{{ .page.bg_image }}');" {{ end }}>
+    <div class="container mx-auto relative z-10">
+        <div class="pl-8 md:pl-24 lg:pl-32">
+            {{ with .category }}
+                <h2 class="max-w-sm text-white text-lg leading-normal font-normal">{{ . }}</h2>
+            {{ end }}
+            <h1 class="text-white text-4xl">{{ .title }}</h1>
+        </div>
+    </div>
+    {{ if not $hasBg }}
+        <div class="z-0">
+            <svg class="ornament-l" style="left: 40%; top: -1.5rem;"><use xlink:href="/styles/symbol-defs.svg#ornament-o-sm"></use></svg>
+            <svg class="ornament" style="left: 5rem; bottom: 25%;"><use xlink:href="/styles/symbol-defs.svg#ornament-l"></use></svg>
+            <svg class="ornament" style="right: 30%; top: 20%;"><use xlink:href="/styles/symbol-defs.svg#ornament-c"></use></svg>
+            <svg class="ornament" style="right: 5%; top: 0;"><use xlink:href="/styles/symbol-defs.svg#ornament-t"></use></svg>
+        </div>
+    {{ end }}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="absolute pin-b w-full h-12">
+        <polygon fill="#eeeeee" points="0,100 100,0 100,100"/>
+    </svg>
+    {{ if $hasSplash }}
+        <div class="mx-4">
+            <div class="relative mx-auto{{ if not $videoSplash }} flex justify-center min-h-xs md:min-h-sm{{ end }} mt-16 p-8 max-w-lg bg-white rounded-xl shadow-blurred">
+                {{ if $videoSplash }}
+                    <div class="embed-container">{{ .page.splash_src | safeHTML }}</div>
+                {{ else }}
+                    <div class="flex-grow rounded-xl bg-cover" style="background-image: url('{{ .page.splash_src }}');"></div>
+                {{ end }}
+                {{ if $hasCta }}
+                <a href="{{ .page.cta_url }}" class="absolute pin-b pin-r -mb-4 mr-12 btn bg-green-gradient px-12 py-4 rounded-xl">{{ .page.cta_text }} &rarr;</a>
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
+</div>

@@ -1,0 +1,26 @@
+about:
+  other: About Fullstack
+contact_us:
+  other: Contact Us
+contact_heading:
+  other: By Form
+service:
+  other: Service
+product:
+  other: Product
+case_study:
+  other: Case Study
+cta_heading:
+  other: Ready to Start Your Next Amazing Project?
+cta_desc:
+  other: We’re excited to help you build it! Reach out to us and request a proposal from our team.
+cta_narrow_heading:
+  other: Want to Talk With an Actual Person?
+cta_narrow_text:
+  other: Start a Conversation
+postedTo:
+  other: 'This article has also been posted to:'
+twitterShare:
+  other: >-
+    <i class="fab fa-twitter"></i> Did you like this article? Share it on
+    Twitter!
