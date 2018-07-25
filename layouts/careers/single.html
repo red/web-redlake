@@ -1,0 +1,17 @@
+{{ define "title" }}
+    {{ .Title }} &ndash; {{ .Site.Params.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ partial "page-title" (dict "category" (i18n "job_listing") "title" .Title "page" .Params)}}
+
+{{ with .Content }}
+    <section class="container mx-auto mt-12 px-2 md:px-8 pb-8 max-w-lg text-grey-darker content">
+        {{ . }}
+    </section>
+{{ end }}
+
+{{ partial "blockloader" . }}
+
+{{ end }}

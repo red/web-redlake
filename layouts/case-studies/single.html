@@ -6,7 +6,7 @@
 	{{ partial "page-title" (dict "category" (i18n "case_study") "title" .Title "page" .Params)}}
 
 	{{ with .Content }}
-		<section class="container mx-auto mt-12 px-2 md:px-8 pb-8 max-w-lg text-rl-gray">
+		<section class="container mx-auto mt-12 px-2 md:px-8 pb-8 max-w-lg text-rl-gray content">
 			{{ . }}
 		</section>
 	{{ end }}
