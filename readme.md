@@ -6,7 +6,7 @@ This is the site source.
 
 1. Install Node 8+ (I recommend using [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows/releases))
 2. Install [Hugo](https://gohugo.io/getting-started/installing) - You can test that it's working by running `hugo` after the executable is available in your $PATH. If run from just any old directory, it should complain "unable to locate config file," which means it's working.
-3. Install [Yarn](https://yarnpkg.com/en/) - TODO: $PATH issue!!
+3. Install [Yarn](https://yarnpkg.com/en/)
 4. Clone this repository
 5. Run `git submodule update --init --recursive` to initialize the theme submodule after cloning.
 4. Go to the directory where you cloned this repo and run `yarn install` to install dependencies
