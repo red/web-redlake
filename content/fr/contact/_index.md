@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Contactez Nous
 subtitle: Get in touch!
 ---
 
