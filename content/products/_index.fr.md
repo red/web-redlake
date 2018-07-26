@@ -1,5 +1,0 @@
----
-title: Des produits
----
-
-Content.

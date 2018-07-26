@@ -35,6 +35,7 @@ outputs:
 languages:
   en:
     LanguageName: "English"
+    ContentDir: content/en
     params:
       Title: "Fullstack Technologies"
       CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
@@ -62,6 +63,7 @@ languages:
           URL: "/contact/"
   fr:
     LanguageName: "Français"
+    ContentDir: content/fr
     params:
       Title: "Fullstack Technologies"
       CopyrightHTML: "Droits d'auteur &#xA9; 2018 FullStack Technologies Ltd"
@@ -91,6 +93,7 @@ languages:
           URL: "/contact/"
   cn:
     LanguageName: "简体中文"
+    ContentDir: content/cn
     params:
       Title: "Fullstack Technologies"
       CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
@@ -148,7 +151,7 @@ params:
       - Name: "Red Language"
         Weight: 1
         Identifier: "redlang"
-        URL: "https://red-lang.org"
+        URL: "https://www.red-lang.org"
       - Name: "Red Foundation"
         Weight: 2
         Identifier: "foundation"
@@ -160,5 +163,5 @@ params:
       - Name: "Fullstack Technologies"
         Weight: 4
         Identifier: "fullstack"
-        URL: "https://fullstack.red-lang.org"
+        URL: "https://fullstack.red"
 ---
