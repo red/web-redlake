@@ -2,7 +2,7 @@
 {{- $hasSplash := (and (isset .page "splash_type") (isset .page "splash_src")) -}}
 {{- $videoSplash := (eq .page.splash_type "video") -}}
 {{- $hasCta := (and (isset .page "cta_text") (isset .page "cta_url")) -}}
-<div class="relative {{ cond (or $hasBg $hasSplash) "h-80" "flex items-center h-32" }} {{ if $hasSplash }}mb-48 md:mb-100{{end}} {{ if not $hasBg }}bg-theme-gradient{{ end }} -mt-px pt-16 pb-12 bg-center bg-no-repeat bg-cover"
+<div class="relative {{ cond (or $hasBg $hasSplash) "h-80" "flex items-center h-32" }} {{ if $hasSplash }}mb-48 md:mb-100{{end}} {{ if not $hasBg }}bg-theme-gradient{{ end }} -mt-px pt-16 pb-16 bg-center bg-no-repeat bg-cover"
 {{ if $hasBg }} style="background-image: url('{{ .page.bg_image }}');" {{ end }}>
     <div class="container mx-auto relative z-10">
         <div class="pl-8 md:pl-24 lg:pl-32">

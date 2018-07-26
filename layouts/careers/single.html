@@ -6,11 +6,14 @@
 
 {{ partial "page-title" (dict "category" (i18n "job_listing") "title" .Title "page" .Params)}}
 
-{{ with .Content }}
-    <section class="container mx-auto mt-12 px-2 md:px-8 pb-8 max-w-lg text-grey-darker content">
-        {{ . }}
-    </section>
-{{ end }}
+
+<section class="container mx-auto mt-12 px-4 md:px-8 pb-8 max-w-lg text-grey-darker">
+	<div class="mb-2 italic">{{ i18n "posted" }} {{ .Date.Format "2 January, 2006" }}</div>
+	<div class="content">{{ .Content }}</div>
+	<div class="mt-8">
+		<a class="text-rl-gray" href="{{ "/careers/" | relLangURL }}">&larr; {{ i18n "openings" }}</a>
+	</div>
+</section>
 
 {{ partial "blockloader" . }}
 

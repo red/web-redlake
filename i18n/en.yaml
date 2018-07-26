@@ -14,6 +14,8 @@ job_listing:
   other: Job Listing
 no_jobs:
   other: No jobs currently available!
+openings:
+  other: Openings at Fullstack
 case_study:
   other: Case Study
 cta_heading:
