@@ -10,15 +10,48 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - name: "contact"
-        label: "Contact"
-        file: "content/contact/_index.en.md"
+      - name: "home_en"
+        label: "Home (English)"
+        file: "content/en/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "home_fr"
+        label: "Home (French)"
+        file: "content/fr/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "home_cn"
+        label: "Home (Chinese)"
+        file: "content/cn/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact_en"
+        label: "Contact (English)"
+        file: "content/en/contact/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact_fr"
+        label: "Contact (French)"
+        file: "content/fr/contact/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact_cn"
+        label: "Contact (Chinese)"
+        file: "content/cn/contact/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog_en"
+    label: "Blog (English)"
+    folder: "content/en/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -29,5 +62,162 @@ collections:
       - { label: "Hero Type", name: "hero_type", widget: "select", options: ["image", "video"] }
       - { label: "Hero Image", name: "hero_src", widget: "image", default: "http://via.placeholder.com/500x280", required: false }
       - { label: "Category", name: "category", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false}
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog_fr"
+    label: "Blog (French)"
+    folder: "content/fr/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Hero Type", name: "hero_type", widget: "select", options: ["image", "video"] }
+      - { label: "Hero Image", name: "hero_src", widget: "image", default: "http://via.placeholder.com/500x280", required: false }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog_cn"
+    label: "Blog (Chinese)"
+    folder: "content/cn/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Hero Type", name: "hero_type", widget: "select", options: ["image", "video"] }
+      - { label: "Hero Image", name: "hero_src", widget: "image", default: "http://via.placeholder.com/500x280", required: false }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "careers_en"
+    label: "Careers (English)"
+    folder: "content/en/careers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "careers_fr"
+    label: "Careers (French)"
+    folder: "content/fr/careers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "careers_cn"
+    label: "Careers (Chinese)"
+    folder: "content/cn/careers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "case-studies_en"
+    label: "Case Studies (English)"
+    folder: "content/en/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", default: "http://via.placeholder.com/235x130" }
+      - { label: "Background", name: "bg_image", widget: "image", default: "http://via.placeholder.com/800x400" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "case-studies_fr"
+    label: "Case Studies (French)"
+    folder: "content/fr/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", default: "http://via.placeholder.com/235x130" }
+      - { label: "Background", name: "bg_image", widget: "image", default: "http://via.placeholder.com/800x400" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "case-studies_cn"
+    label: "Case Studies (Chinese)"
+    folder: "content/cn/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image", default: "http://via.placeholder.com/235x130" }
+      - { label: "Background", name: "bg_image", widget: "image", default: "http://via.placeholder.com/800x400" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "products_en"
+    label: "Products (English)"
+    folder: "content/en/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
+      - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
+      - { label: "CTA Text", name: "cta_text", widget: "string" }
+      - { label: "CTA URL", name: "cta_url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "products_fr"
+    label: "Products (French)"
+    folder: "content/fr/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
+      - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
+      - { label: "CTA Text", name: "cta_text", widget: "string" }
+      - { label: "CTA URL", name: "cta_url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "products_en"
+    label: "Products (Chinese)"
+    folder: "content/cn/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
+      - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
+      - { label: "CTA Text", name: "cta_text", widget: "string" }
+      - { label: "CTA URL", name: "cta_url", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "services_en"
+    label: "Services (English)"
+    folder: "content/en/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
+      - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
       - { label: "Body", name: "body", widget: "markdown" }

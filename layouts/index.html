@@ -13,7 +13,11 @@
         {{- if eq .template "grid-list" -}}{{ partial "blocks/grid-list" (dict "Params" .) }}{{- end -}}
     {{- end -}}
 
-    {{ .Content }}
+	{{ with .Content }}
+		<section class="container mx-auto mt-12 px-4 md:px-8 pb-8 text-grey-darker content">
+			{{ . }}
+		</section>
+	{{ end }}
 
 	<div class="w-full h-4 mt-12 md:mt-24 bg-rl-golden-darker"></div>
     <div class="bg-theme-gradient curve-top w-full">
