@@ -1,8 +1,11 @@
 ---
-title: First job ever en France
-date: 2018-07-01T20:01:17-05:00
-description: |-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias, ab consequatur sequi!
+title: First job 工作
+date: 2018-07-02T01:01:17.000Z
+description: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, mollitia
+  repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam
+  autem accusamus, impedit ipsa illo natus voluptates alias, ab consequatur
+  sequi!
 ---
 
 ## About Us
