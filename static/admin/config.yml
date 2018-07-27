@@ -221,3 +221,29 @@ collections:
       - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
       - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "services_fr"
+    label: "Services (French)"
+    folder: "content/fr/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
+      - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "services_cn"
+    label: "Services (Chinese)"
+    folder: "content/cn/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Weight", name: "weight", widget: "number" }
+      - { label: "Splash Type", name: "splash_type", widget: "select", options: ["image", "video"] }
+      - { label: "Splash Image", name: "splash_src", widget: "image", default: "http://via.placeholder.com/500x280" }
+      - { label: "Body", name: "body", widget: "markdown" }
