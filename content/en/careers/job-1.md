@@ -1,34 +1,39 @@
 ---
-title: First job ever
-date: 2018-07-01T20:01:17-05:00
-description: |-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias, ab consequatur sequi!
+title: Low-level System Developer
+date: 2018-10-27T01:01:17.000Z
+description: >-
+  If you know OS level coding, are familiar with multiple operating systems, and
+  like the level of C, that's what we're talking about. You won't be using C,
+  but a language that lives at the same level, while being more modern, and part
+  of a full-stack (metal to meta) toolchain.
 ---
-
 ## About Us
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias, ab consequatur sequi! [linky link](https://rebol.com)
+See the main Careers entry to get a sense of who we are.
 
 ## About the Role
 
-Consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias.
+Redlake uses the Red and Red/System languages for most of our work. This position requires knowledge of C level coding, and experience working at that level on multiple operating systems. 
 
-Consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias.
+You'll work with a small team creating a self-hosted, cross-platform, cross-compiling toolchain. We don't emit C, or ASM, we emit machine code. LLVM and WASM are future targets. 
+
+We have a partial GTK implementation, and core Android GUI, which need to come up to speed and match our Windows and MacOS GUIs. There are also low level algorithms to be ported to Red/System from C/C++, and new features to add on I/O, concurrency, and more. We specialize in our tools, but generalize in our tasks.
 
 ### Requirements
 
-* 1+ years experience or 4-year degree in Computer Science or related field
+* 4+ years experience or 4-year degree in Computer Science or related field
 * Execution-focused. You love working on defined projects and you get stuff DONE.
 * Ability to work across our stack (just Red!)
-* Additional experience using Git, JavaScript, and SQL databases a plus
+* Additional experience using Git, JavaScript, and other tools a plus
 * Experience writing unit and integration tests
 * Great communication skills
 * Passion for creating simple, intuitive applications for customers worldwide
 * Can-do attitude with a good sense of humor
+* Ability to work autonomously. Expect support, but not a babysitter.
 
 ## We Offer
 
-Competitive salary, profit-sharing, medical/dental/vision, health savings account, subsidized transit, 401(k) with matching, very good coffee, chocolate. We’re a tight-knit group and have a lot of fun!
+Lean startup salary, coffee subsidy, the chance to change the world. We’re a tight-knit group and have a lot of fun!
 
 ## What's Next
 
