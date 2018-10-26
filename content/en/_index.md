@@ -38,7 +38,7 @@ blocks:
     heading: "We Build the Product, You Supply the Idea."
     content: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et lorem sed quam porta rhoncus. Pellentesque porttitor nisi sit amet tortor tristique, nec euismod odio laoreet. Vivamus non elementum sem, non sodales dolor.
-    image: "http://via.placeholder.com/400x450"
+    image: "/images/dev-infograph-1.png"
     image_position: "right"
     button_text: "Contact Us"
     button_url: "/contact/"
