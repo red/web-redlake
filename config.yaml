@@ -1,6 +1,6 @@
 ---
-baseURL: "https://beta.fullstack.red/"
-title: Fullstack Technologies
+baseURL: "https://www.redlake-tech.com/"
+title: Redlake Technologies
 languageCode: "en-us"
 metaDataFormat: yaml
 theme: "featherweight"
@@ -37,8 +37,8 @@ languages:
     LanguageName: "English"
     ContentDir: content/en
     params:
-      Title: "Fullstack Technologies"
-      CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
+      Title: "Redlake Technologies"
+      CopyrightHTML: "Copyright &#xA9; 2018 Redlake Technologies Ltd"
     menu:
       main:
         - Name: "Services"
@@ -65,8 +65,8 @@ languages:
     LanguageName: "Français"
     ContentDir: content/fr
     params:
-      Title: "Fullstack Technologies"
-      CopyrightHTML: "Droits d'auteur &#xA9; 2018 FullStack Technologies Ltd"
+      Title: "Redlake Technologies"
+      CopyrightHTML: "Droits d'auteur &#xA9; 2018 Redlake Technologies Ltd"
     blackfriday:
       angledQuotes: true
     menu:
@@ -95,8 +95,8 @@ languages:
     LanguageName: "简体中文"
     ContentDir: content/cn
     params:
-      Title: "Fullstack Technologies"
-      CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
+      Title: "Redlake Technologies"
+      CopyrightHTML: "Copyright &#xA9; 2018 Redlake Technologies Ltd"
     menu:
       main:
         - Name: "服务"
@@ -156,8 +156,8 @@ params:
         Weight: 2
         Identifier: "foundation"
         URL: "https://foundation.red-lang.org"
-      - Name: "Fullstack Technologies"
+      - Name: "Redlake Technologies"
         Weight: 4
-        Identifier: "fullstack"
-        URL: "https://fullstack.red"
+        Identifier: "redlake"
+        URL: "https://www.redlake-tech.com"
 ---

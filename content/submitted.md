@@ -8,6 +8,6 @@ Redirecting...
 
 <script>
 	setTimeout(function () {
-		window.location.href = 'https://fullstack.red';
+		window.location.href = 'https://www.redlake-tech.com';
 	}, 3500);
 </script>
