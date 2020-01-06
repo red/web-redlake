@@ -32,7 +32,7 @@ blocks:
         description: "description goes here."
   - template: "action-feature"
     heading: "Ready to Start Your Next Amazing Project?"
-    content: We’re excited to help you build it! Reach out to us and request a proposal from our team.
+    content: "We’re excited to help you build it! Reach out to us and request a proposal from our team."
     button_text: "Contact Us"
     button_url: "/contact/"
     bg_dark: false
