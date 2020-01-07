@@ -42,7 +42,7 @@ blocks:
     button_url: "/buy-now/"
     bg_dark: false
   - template: "narrow-cta"
-    description: "Want to Learn More? Contact us."
-    link_url: "/contact/"
-    link_text: "Start a Conversation"
+    description: "See Results"
+    link_url: "product/diagrammar/gallery/"
+    link_text: "Check out the Gallery"
 ---
