@@ -43,6 +43,6 @@ blocks:
     bg_dark: false
   - template: "narrow-cta"
     description: "See Results"
-    link_url: "product/diagrammar/gallery/"
+    link_url: "/gallery/"
     link_text: "Check out the Gallery"
 ---
