@@ -2,8 +2,7 @@
 title: DiaGrammar
 weight: 2
 description: >-
- DiaGrammar is your new best friend, whether you write DSLs, document data formats, or publish APIs. Users 
-want to understand your design quickly. Diagrams foster adoption. Today's stakeholders demand that designs are proven, documented, and tested. You need to look professional. More than that, you need to be professional. Don't just hack, design. Don't hope it works, test. Don't guess, understand. Then show everyone what you've got.
+  DiaGrammar is your new best friend, whether you write DSLs, document data formats, or publish APIs. Users want to understand your design quickly. Diagrams foster adoption. Today's stakeholders demand that designs are proven, documented, and tested. You need to look professional. More than that, you need to be professional. Don't just hack, design. Don't hope it works, test. Don't guess, understand. Then show everyone what you've got.
 splash_type: "image"
 splash_src: "https://tailwindcss.com/img/card-top.jpg"
 cta_text: "DiaGrammar Web Site"
