@@ -11,16 +11,28 @@ blocks:
   - template: "1up"
     heading: "The World's First Live-Coded Grammar Diagramming and Diagnostic Tool"
     content: |-
-      DiaGrammar is your new best friend, whether you write languages and DSLs, document data formats, or publish APIs. Users want to understand your design quickly. Diagrams foster understanding, communication, and adoption. Today's stakeholders demand that designs are thought-out, documented, and tested. You need to look professional. More than that, you need to be professional. Don't hack, design. Don't hope, test. Don't guess, understand. Then show everyone what you've got. Live coding is the best, most productive way to do this. You get immediate feedback, see and fix problems instantly, and work as fast as you can think.
+      Whether you write languages and DSLs, document data formats, or
+      publish APIs, DiaGrammar is your new best friend. Users want to 
+      understand your design quickly. Diagrams foster understanding, 
+      communication, and adoption. Today's stakeholders demand that 
+      designs are thought-out, documented, and tested. You need to look 
+      professional. More than that, you need to be professional.
+      
+      Don't hack, design. Don't hope, test. Don't guess, understand. Then
+      show everyone what you've got. Live coding is the best, most
+      productive way to do this. You get immediate feedback, see and fix
+      problems instantly, and work as fast as you can think.
   - template: "media-feature"
     heading: "All Aboard!"
     #content: "DiaGrammar generates railroad syntax diagrams, live, as you write your grammar. It understands Red's Parse dialect, ABNF, McKeeman Form, and more metagrammars are coming."
     content: |- 
-      Do you design before you code? Do you want to share your designs? Do you wish you had time to document things professionally? Do you suffer the pain of keeping diagrams in sync with design changes? Us too.
+      Do you design before you code? Do you wish you had time to document
+      things professionally? Do you suffer the pain of keeping docs in
+      sync with design changes? Us too.
       
-      DiaGrammar generates railroad syntax diagrams, live, as you write your grammar. It understands Red's Parse dialect, ABNF, McKeeman Form, and more metagrammars are coming.
-      
-      There's no need to switch gears. Write your grammar and your diagrams are already done, and always in sync.
+      DiaGrammar generates syntax diagrams, live, as you write your
+      grammar. There's no need to switch gears. Write your grammar and 
+      your diagrams are already done, and always in sync.
     image: "http://via.placeholder.com/500x280"
     image_position: "right"
   - template: "media-feature"
@@ -35,8 +47,12 @@ blocks:
     image_position: "right"
   - template: "accordion"
     accordion_items:
+      - title: "Use what you know"
+        description: |-
+          DiaGrammar understands Red's Parse dialect, ABNF, McKeeman,
+          and more metagrammars are coming.
       - title: "Get Organized"
-        description: "Group grammars and inputs into projects, so they stay together."
+        description: "Group grammars and inputs, so they stay together."
       - title: "Own Your Style and Show it Off"
         description: "Customize every aspect of the rendered diagram, save and share it."
       - title: "Red Superpowers"
