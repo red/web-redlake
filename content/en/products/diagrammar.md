@@ -11,12 +11,13 @@ blocks:
   - template: "1up"
     heading: "The World's First Live-Coded Grammar Diagramming and Diagnostic Tool"
     content: |-
-      Whether you write languages and DSLs, document data formats, or
-      publish APIs, DiaGrammar is your new best friend. Users want to 
+      Whether you design languages and DSLs, parse or document data formats,
+      or publish APIs, DiaGrammar is your new best friend. Users want to 
       understand your design quickly. Diagrams foster understanding, 
       communication, and adoption. Today's stakeholders demand that 
       designs are thought-out, documented, and tested. You need to look 
       professional. More than that, you need to be professional.
+      
       
       Don't hack, design. Don't hope, test. Don't guess, understand. Then
       show everyone what you've got. Live coding is the best, most
