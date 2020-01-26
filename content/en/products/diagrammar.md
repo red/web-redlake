@@ -34,17 +34,17 @@ blocks:
       DiaGrammar generates syntax diagrams, live, as you write your
       grammar. There's no need to switch gears. Write your grammar and 
       your diagrams are already done, and always in sync.
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/screenshot-1.png"
     image_position: "right"
   - template: "media-feature"
     heading: "Live Testing"
     content: "Write test inputs and run them against any rule in your grammar. Or put them in files and test against entire directories. Not only can you see if an input matches your entire grammar, you can select specific rules and find where they match parts of your input."
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/screenshot-find.png"
     image_position: "left"
   - template: "media-feature"
     heading: "Fuzz Test Yourself"
     content: "Not sure what valid inputs might look like, beyond those you come up with and design for? Use the Generate feature to create randomly synthesized inputs that a rule, or your entire grammar, will recognize. If DiaGrammar generates it, it will also parse it. Generated inputs may show you things you didn't know your grammar could handle."
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/screenshot-generate.png"
     image_position: "right"
   - template: "accordion"
     accordion_items:
@@ -55,7 +55,7 @@ blocks:
       - title: "Get Organized"
         description: "Group grammars and inputs, so they stay together."
       - title: "Own Your Style and Show it Off"
-        description: "Customize every aspect of the rendered diagram, save and share it."
+        description: "Customize the rendered diagram, save and share it."
       - title: "Red Superpowers"
         description: "If you use Red's Parse dialect, your grammar interpreter is already done. You can even add actions and more. If you prefer ABNF or another grammar, you'd still have to write the code in another programming language to process it. DiaGrammar can help. It can convert any metagrammar to Red Parse rules automatically." 
   - template: "action-feature"
