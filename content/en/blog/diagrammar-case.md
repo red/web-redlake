@@ -8,7 +8,7 @@ hero_src: >-
   https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 category: news
 tags:
-  - company
+  - DiaGrammar
 ---
 
 Content TBD. 
