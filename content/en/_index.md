@@ -4,9 +4,7 @@ blocks:
   - template: "hero"
     heading: "We Are Building Software for the Next Generation of Innovators."
     content: >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus eum quibusdam quas
-        voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam quisquam nobis
-        tempore sed dicta voluptate eaque eius?
+        Facts. Data. Diagram - stay informed, stay healthy. Download or view or [covid-19](/covid-19/) diagrams.
     button_text: "Contact Us"
     button_url: "/contact"
     image_position: "right"
