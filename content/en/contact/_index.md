@@ -2,5 +2,11 @@
 title: Contact Us
 subtitle: Get in touch!
 ---
+Facts. Data. Diagrams. Stay informed.  
+Though we're not ready for prime time we
+have decided to create and release a set of diagrams that depict the basic processes
+for controlling [covid-19](/covid-19/) .
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et lorem sed quam porta rhoncus. Pellentesque porttitor nisi sit amet tortor tristique, nec euismod odio laoreet. Vivamus non elementum sem, non sodales dolor. 
+View or download. And stay healthy. 
+
+**Contact us to learn more.**
