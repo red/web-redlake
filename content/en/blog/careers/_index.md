@@ -2,6 +2,13 @@
 title: Careers
 date: 2018-10-26T20:15:13.572Z
 description: 'Did you take the Red pill, or the blue pill?'
+author: Gregg Irwin
+hero_type: image
+hero_src: >-
+  https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+category: jobs
+tags:
+  - company
 ---
 Redlake Technologies (formerly Redlake Technologies) is a small, dynamic company on a mission to prove that we can provide development tools, technologies, and services that are easier to use, less expensive to operate, and more flexible. With a foundation built on open source Red Language technologies, we want to show that companies can win by joining the fight against software complexity.
 

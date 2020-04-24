@@ -11,7 +11,5 @@ tags:
   - DiaGrammar
 ---
 
-Content TBD. 
-- Note Case checkbox
-- `case` keyword
-- String vs block behaviors
+Content TBD. Meanwhile checkout [DiaGrammar's product page](/products/diagrammar/)
+

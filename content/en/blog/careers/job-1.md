@@ -6,6 +6,13 @@ description: >-
   like the level of C, that's what we're talking about. You won't be using C,
   but a language that lives at the same level, while being more modern, and part
   of a full-stack (metal to meta) toolchain.
+  author: Nenad Rankocevic
+hero_type: image
+hero_src: >-
+  https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+category: jobs
+tags:
+  - company
 ---
 ## About Us
 

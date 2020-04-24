@@ -1,15 +1,27 @@
 ---
 title: Second job
 date: 2018-07-25T20:01:17-05:00
-description: |-
-  Consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias.
+description: >-
+  If you know OS level coding, are familiar with multiple operating systems, and
+  like the level of C, that's what we're talking about. You won't be using C,
+  but a language that lives at the same level, while being more modern, and part
+  of a full-stack (metal to meta) toolchain.
+  author: Nenad Rankocevic
+hero_type: image
+hero_src: >-
+  https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+category: jobs
+tags:
+  - company
 ---
 
 ## About the Role
 
-Consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias.
+Redlake uses the Red and Red/System languages for most of our work. This position requires knowledge of C level coding, and experience working at that level on multiple operating systems. 
 
-Consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias.
+You'll work with a small team creating a self-hosted, cross-platform, cross-compiling toolchain. We don't emit C, or ASM, we emit machine code. LLVM and WASM are future targets. 
+
+We have a partial GTK implementation, and core Android GUI, which need to come up to speed and match our Windows and MacOS GUIs. There are also low level algorithms to be ported to Red/System from C/C++, and new features to add on I/O, concurrency, and more. We specialize in our tools, but generalize in our tasks
 
 ### Requirements
 
@@ -24,7 +36,7 @@ Consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat
 
 ## About Us
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, mollitia repudiandae voluptate repellat, culpa nisi expedita numquam recusandae veniam autem accusamus, impedit ipsa illo natus voluptates alias, ab consequatur sequi! [linky link](https://rebol.com)
+See the main Careers entry to get a sense of who we are.
 
 ## We Offer
 
