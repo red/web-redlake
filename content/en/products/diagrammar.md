@@ -5,7 +5,7 @@ description: >-
   DiaGrammar is your new best friend, whether you write DSLs, document data formats, or publish APIs. Users want to understand your design quickly. Diagrams foster understanding, communication, and adoption. Today's stakeholders demand that designs are thought-out, documented, and tested. You need to look professional. More than that, you need to be professional. Don't hack, design. Don't hope, test. Don't guess, understand. Then show everyone what you've got.
 splash_type: "image"
 splash_src: "https://tailwindcss.com/img/card-top.jpg"
-cta_text: "DiaGrammar Web Site"
+cta_text: "DiaGrammar Web Site."
 cta_url: https://www.red-lang.org
 blocks:
   - template: "1up"
@@ -43,27 +43,27 @@ blocks:
     image: "/images/screenshot-1.png"
     image_position: "right"
   - template: "media-feature"
-    heading: "Live Testing"
+    heading: "Live Testing."
     content: "Write test inputs and run them against any rule in your grammar. Or put them in files and test against entire directories. Not only can you see if an input matches your entire grammar, you can select specific rules and find where they match parts of your input."
     image: "/images/screenshot-find.png"
     image_position: "left"
-  - template: "media-feature"
+  - template: "media-feature."
     heading: "Fuzz Test Yourself"
     content: "Not sure what valid inputs might look like, beyond those you come up with and design for? Use the Generate feature to create randomly synthesized inputs that a rule, or your entire grammar, will recognize. If DiaGrammar generates it, it will also parse it. Generated inputs may show you things you didn't know your grammar could handle."
     image: "/images/screenshot-generate.png"
     image_position: "right"
   - template: "accordion"
     accordion_items:
-      - title: "Use what you know"
+      - title: "Use what you know!"
         description: |-
-          DiaGrammar understands Red's Parse dialect, ABNF, McKeeman,
+          DiaGrammar understands [RED](http://www.red-lang.org)'s Parse dialect, ABNF, McKeeman,
           and more metagrammars are coming.
-      - title: "Get Organized"
+      - title: "Get Organized."
         description: "Group grammars and inputs, so they stay together."
-      - title: "Own Your Style and Show it Off"
+      - title: "Own Your Style and Show it Off."
         description: "Customize the rendered diagram, save and share it."
-      - title: "Red Superpowers"
-        description: "If you use Red's Parse dialect, your grammar interpreter is already done. You can even add actions and more. If you prefer ABNF or another grammar, you'd still have to write the code in another programming language to process it. DiaGrammar can help. It can convert any metagrammar to Red Parse rules automatically." 
+      - title: "RED Superpowers."
+        description: "If you use [RED](http://www.red-lang.org)'s Parse dialect, your grammar interpreter is already done. You can even add actions and more. If you prefer ABNF or another grammar, you'd still have to write the code in another programming language to process it. DiaGrammar can help. It can convert any metagrammar to Red Parse rules automatically." 
   - template: "action-feature"
     heading: "Get on Track, Get Moving, Build up some Steam"
     content: "Put DiaGrammar's engine to work for you. Head for the horizon. Don't miss the train."

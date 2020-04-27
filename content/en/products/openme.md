@@ -2,34 +2,34 @@
 title: OpenME
 weight: 2
 description: >-
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et lorem sed quam porta rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et lorem sed quam porta rhoncus.
+ Open Messaging Environment.
 splash_type: "image"
 splash_src: "https://tailwindcss.com/img/card-top.jpg"
 cta_text: "Launch Product"
 cta_url: https://www.red-lang.org
 blocks:
   - template: "1up"
-    heading: "We built the first ERP system that people actually like. Really."
+    heading: "Open Messaging Environment."
     content: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod libero vitae turpis scelerisque tristique. Ut facilisis tincidunt augue sit amet imperdiet. Nullam eget erat non ligula tempus rhoncus eget vitae elit. Nam nec ligula eu urna facilisis volutpat ut quis magna. Mauris quis hendrerit nisi. Vivamus sed viverra justo. Nam et pretium eros, quis congue ex. Fusce scelerisque est scelerisque libero tempor, id faucibus mi gravida. Cras mattis, leo nec viverra consequat, lectus ipsum tristique ante, et imperdiet purus felis et purus. Cras luctus vel sem at placerat. Morbi malesuada urna eu justo malesuada vestibulum. Suspendisse quis neque mi. Mauris luctus tellus quis rutrum efficitur. Phasellus pulvinar, ex eget bibendum vestibulum, metus enim scelerisque metus, id viverra metus urna sit amet erat. Donec interdum vitae felis condimentum tristique.
+      In design phase - stay tuned.
   - template: "media-feature"
-    heading: "Feature 1"
-    content: "Proin at finibus ex. *Duis sed nisi lectus.* Mauris interdum ac nunc quis pharetra. Vivamus rhoncus porttitor ante."
-    image: "http://via.placeholder.com/500x280"
+    heading: "Open."
+    content: "Because in [RED](http://www.red-lang.org), we prefer to do things transparantly."
+    image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
-    heading: "Feature 2"
-    content: "Proin at finibus ex. *Duis sed nisi lectus.* Mauris interdum ac nunc quis pharetra. Vivamus rhoncus porttitor ante."
-    image: "http://via.placeholder.com/500x280"
+    heading: "Messaging"
+    content: "Because messages are more powerful than RPC calls."
+    image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
   - template: "accordion"
     accordion_items:
-      - title: "thing 1"
-        description: "description goes here."
-      - title: "thing 2"
-        description: "description goes here."
-      - title: "thing 3"
-        description: "description goes here."
+      - title: "Environment"
+        description: "The [RED](http://www.red-lang.org) way: one self-contained environment."
+      - title: "Fast"
+        description: "... also the RED way ;-)"
+      - title: "And again: Open."
+        description: "Becuase we can't stress transparency enough."
   - template: "action-feature"
     heading: "Ready to Start Your Next Amazing Project?"
     content: "We’re excited to help you build it! Reach out to us and request a proposal from our team."

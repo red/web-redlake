@@ -49,10 +49,10 @@ languages:
           Weight: 2
           Identifier: "products"
           URL: "/products/"
-        - Name: "Case Studies"
-          Weight: 3
-          Identifier: "case-studies"
-          URL: "/case-studies/"
+ #       - Name: "Case Studies"
+ #         Weight: 3
+ #         Identifier: "case-studies"
+ #         URL: "/case-studies/"
         - Name: "Blog"
           Weight: 4
           Identifier: "blog"
