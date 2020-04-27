@@ -26,7 +26,7 @@ blocks:
   - template: "2up"
     heading: "Full-Stack Developers Using Full-Stack Technology- using [RED](https://www.red-lang.org/)."
     left: |-
-      https://www.red-lang.org/’s ambitious goal is to build the world’s first full-stack language, a language you can use from system programming tasks, up to high-level scripting through DSL. You've probably heard of the term "Full-Stack Developer". But what is a full-stack Language, exactly?
+      [RED](https://www.red-lang.org/)’s ambitious goal is to build the world’s first full-stack language, a language you can use from system programming tasks, up to high-level scripting through DSL. You've probably heard of the term "Full-Stack Developer". But what is a full-stack Language, exactly?
 
       Other languages talk about having "one tool to rule them all". Red has that mindset too, pushed to the limit - it's a single executable that takes in your source files on any platform, and produces a packaged binary for any platform, from any other. The tool doesn’t depend on anything besides what came with your OS...shipping as a single executable that’s smaller than a megabyte.
 
