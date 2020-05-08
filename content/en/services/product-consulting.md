@@ -4,31 +4,28 @@ weight: 1
 description: In-House, Verticals, and Commercial Software. We've done it all.
 splash_type: "video"
 splash_src: >
-  <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  # <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 blocks:
   - template: "media-feature"
-    heading: "Red morphs into a language that describes your product."
-    content: "Though we're still building the [Red language](http://www.red-lang.org) wenwant to help - in the way we know best.
+    heading: "COVID-19: Doing what we can."
+    content: "Though we're still building the [Red language](http://www.red-lang.org) and products, we want to help.
       So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
-      Check our [COVID-19](/covid-19) initiative.
-      
-      We'll keep you posted on the benefits once we're out of stealth mode.
+      Check out our [COVID-19](/covid-19) initiative for details.
       "
-    image: "https://tailwindcss.com/img/card-top.jpg"
+    image: "images/who-stay-safe-crop.png"
     image_position: "right"
   - template: "media-feature"
-    heading: "Red DSLs match your product development."
-    content: "Though we're still enhancing [Red language](http://www.red-lang.org)'s DSL capabilities we want to help - in the way we know best.
-      So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
-      Check our [COVID-19](/covid-19) initiative.
-      
-      We'll keep you posted on the benefits once're out of stealth mode.
+    heading: "Goal Oriented Thinking."
+    content: "Technology is a means, not an end. Yes, we're technologists and deep thinkers,
+      but we're also pragmatic and have broad experience in many industries. We don't throw
+      technology at a problem and hope for the best. We work to understand the ultimate goal
+      and match the solution to that need, keeping things as simple as possible.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
   - template: "action-feature"
-    heading: "Ready to Start Your Next Amazing Project?"
-    content: We’re excited to help you build it! Reach out to us and request a proposal from our team.
+    heading: "Pick Our Brains"
+    content: Problems do exist, but we focus on solutions.
     button_text: "Contact Us"
     button_url: "/contact/"
     bg_dark: false
