@@ -1,14 +1,14 @@
 ---
-title: Product Consulting
+title: Consulting
 weight: 1
-description: Check out our COVID-19 initative while we set up our product consulting business.
+description: In-House, Verticals, and Commercial Software. We've done it all.
 splash_type: "video"
 splash_src: >
   <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 blocks:
   - template: "media-feature"
-    heading: "RED morphs into a language that describes your product."
-    content: "Though we're still building the [RED language](http://www.red-lang.org) wenwant to help - in the way we know best.
+    heading: "Red morphs into a language that describes your product."
+    content: "Though we're still building the [Red language](http://www.red-lang.org) wenwant to help - in the way we know best.
       So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
       Check our [COVID-19](/covid-19) initiative.
       
@@ -17,8 +17,8 @@ blocks:
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
-    heading: "RED DSLs match your product development."
-    content: "Though we're still enhancing [RED language](http://www.red-lang.org)'s DSL capabilities we want to help - in the way we know best.
+    heading: "Red DSLs match your product development."
+    content: "Though we're still enhancing [Red language](http://www.red-lang.org)'s DSL capabilities we want to help - in the way we know best.
       So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
       Check our [COVID-19](/covid-19) initiative.
       
