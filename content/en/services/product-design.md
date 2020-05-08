@@ -1,13 +1,13 @@
 ---
-title: Design
+title: Product Design
 weight: 2
-description: You have an idea. What next?
+description: Check out our COVID-19 initiative while we set up our product design business.
 splash_type: "video"
 splash_src: >
   <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 blocks:
   - template: "media-feature"
-    heading: "[RED](http://www.red-lang.org) is a great prototyping tool during design."
+    heading: "Quick prototyping is in our blood."
     content: "Though we're still building our product design process we want to help - in the way we know best.
       So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
       Check our [COVID-19](/covid-19) initiative.
@@ -17,7 +17,7 @@ blocks:
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
-    heading: "[RED](http://www.red-lang.org) has an unmatched ease and expresiveness for UIs - build mock-ups fast."
+    heading: "Abstract as well as Concrete."
     content: "Though we're still improving our UI engine and dialect we want to help - in the way we know best.
       So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
       Check our [COVID-19](/covid-19) initiative.
