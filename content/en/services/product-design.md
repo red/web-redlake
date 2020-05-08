@@ -1,5 +1,5 @@
 ---
-title: _Design_
+title: Prod Design
 weight: 2
 description: You have an idea. What next?
 splash_type: "video"
