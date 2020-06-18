@@ -5,6 +5,7 @@
 	"license": "Private, all rights reserved",
 	"private": true,
 	"scripts": {
+    "functions": "cd functions && npm i && cd ..",
 		"postinstall": "cd themes/featherweight && yarn install",
 		"start": "themes/featherweight/node_modules/.bin/concurrently \"cd themes/featherweight && yarn run watch\" \"hugo server --disableFastRender\"",
 		"dev": "cd themes/featherweight && yarn run dev && cd ../.. && hugo",
