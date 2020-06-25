@@ -1,25 +1,40 @@
 {
-	"name": "fullstack-site",
-	"version": "0.0.1",
-	"author": "Grayscale Digital",
-	"license": "Private, all rights reserved",
-	"private": true,
-	"scripts": {
-    "functions": "cd functions && npm i && cd ..",
-		"postinstall": "cd themes/featherweight && yarn install",
-		"start": "themes/featherweight/node_modules/.bin/concurrently \"cd themes/featherweight && yarn run watch\" \"hugo server --disableFastRender\"",
-		"dev": "cd themes/featherweight && yarn run dev && cd ../.. && hugo",
-		"build": "cd themes/featherweight && yarn run build && cd ../.. && hugo",
-		"fmt": "themes/featherweight/node_modules/.bin/prettier --write \"src/**/*.{js,ts,scss,css}\"",
-		"lint-styles": "themes/featherweight/node_modules/.bin/stylelint \"src/styles/**/*.css\"",
-		"lint": "themes/featherweight/node_modules/.bin/eslint --config \"themes/featherweight/.eslintrc.json\" \"src/js/**/*.{js,ts}\""
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "yarn run lint && yarn run lint-styles && yarn run fmt"
-		}
-	},
-	"devDependencies": {
-		"husky": "^3.1.0"
-	}
+    "name": "fullstack-site",
+    "version": "0.0.1",
+    "author": "Grayscale Digital",
+    "license": "Private, all rights reserved",
+    "private": true,
+    "scripts": {
+        "postinstall": "cd themes/featherweight && yarn install",
+        "start": "themes/featherweight/node_modules/.bin/concurrently \"cd themes/featherweight && yarn run watch\" \"hugo server --disableFastRender\"",
+        "api:dev": "node_modules/nodemon/bin/nodemon.js api/index.js",
+        "api:prod": "node api/index.js",
+        "dev": "cd themes/featherweight && yarn run dev && cd ../.. && hugo",
+        "build": "cd themes/featherweight && yarn run build && cd ../.. && hugo",
+        "fmt": "themes/featherweight/node_modules/.bin/prettier --write \"src/**/*.{js,ts,scss,css}\"",
+        "lint-styles": "themes/featherweight/node_modules/.bin/stylelint \"src/styles/**/*.css\"",
+        "lint": "themes/featherweight/node_modules/.bin/eslint --config \"themes/featherweight/.eslintrc.json\" \"src/js/**/*.{js,ts}\""
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "yarn run lint && yarn run lint-styles && yarn run fmt"
+        }
+    },
+    "nodemonConfig": {
+        "restartable": "rs",
+        "env": {
+            "NODE_ENV": "development"
+        },
+        "watch": [
+            "api/**/*"
+        ]
+    },
+    "devDependencies": {
+        "husky": "^3.1.0",
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    }
 }
