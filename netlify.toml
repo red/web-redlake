@@ -1,4 +1,0 @@
-[build]
-  command = "yarn run build && yarn run functions"
-  publish = "public"
-  functions = "functions"
