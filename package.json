@@ -6,7 +6,7 @@
     "private": true,
     "scripts": {
         "postinstall": "cd themes/featherweight && yarn install",
-        "start": "themes/featherweight/node_modules/.bin/concurrently \"cd themes/featherweight && yarn run watch\" \"hugo server --disableFastRender\"",
+        "start": "themes/featherweight/node_modules/.bin/concurrently \"cd themes/featherweight && yarn run watch\" \"hugo server --disableFastRender --bind 0.0.0.0\" \"yarn run api:dev\"",
         "api:dev": "node_modules/nodemon/bin/nodemon.js api/index.js",
         "api:prod": "node api/index.js",
         "dev": "cd themes/featherweight && yarn run dev && cd ../.. && hugo",
