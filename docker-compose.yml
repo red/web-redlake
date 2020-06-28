@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    hugo:
+        build: ./docker.dev
+        ports:
+          - '1313:1313'
+          - '5000:5000'
+        volumes:
+          - .:/usr/src/app
+        command: bash -c "nginx && yarn start"
