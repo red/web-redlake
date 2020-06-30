@@ -8,4 +8,6 @@ services:
           - '5000:5000'
         volumes:
           - .:/usr/src/app
-        command: bash -c "nginx && yarn start"
+        stdin_open: true
+        tty: true
+        command: bash -c "nginx && bash"

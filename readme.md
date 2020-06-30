@@ -4,15 +4,19 @@ This is the site source.
 
 ## Building the site
 
-1. Install Node 8+ (I recommend using [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows/releases))
-2. Install [Hugo](https://gohugo.io/getting-started/installing) - You can test that it's working by running `hugo` after the executable is available in your $PATH. If run from just any old directory, it should complain "unable to locate config file," which means it's working.
-3. Install [Yarn](https://yarnpkg.com/en/)
-4. Clone this repository
+### Development
+
+1. Install [Docker](https://www.docker.com/products/docker-desktop)
+2. Clone this repository
     * If you are using HTTPS (not SSH), you'll need to update the submodule reference in your clone to the theme directory to HTTPS as well. See [this answer](https://stackoverflow.com/a/30885128/2486583).
-5. Run `git submodule update --init --recursive` to initialize the theme submodule after cloning.
-4. Go to the directory where you cloned this repo and run `yarn install` to install dependencies
-5. Run `yarn start`
-6. Visit http://localhost:1313
+3. Run `git submodule update --init --recursive` to initialize the theme submodule after cloning.
+4. Run `docker-compose up -d`.
+5. Run `docker-compose exec hugo bash`.
+6. In the bash prompt that appears, run `yarn install`.
+7. Run `yarn start`.
+8. Visit http://localhost:5000
+
+### Production
 
 To build for production, run `yarn build`. The rendered site will be in the public/ dir.
 
