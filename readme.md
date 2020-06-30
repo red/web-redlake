@@ -18,7 +18,9 @@ This is the site source.
 
 ### Production
 
-To build for production, run `yarn build`. The rendered site will be in the public/ dir.
+1. Run `docker build . -t prod-image`.
+2. Run `docker run -dit -p 80:80 -p 443:443 --name prod prod-image`.
+3. Run `docker exec -it prod nginx`.
 
 See other scripts in package.json.
 

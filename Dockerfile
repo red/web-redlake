@@ -1,7 +1,8 @@
-FROM node:10.21.0-alpine3.11
+FROM nginx:alpine
 
 ENV HUGO_VERSION 0.73.0
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+ENV HUGO_SITE /usr/src/app
 
 # Install Hugo
 RUN set -x && \
@@ -18,11 +19,19 @@ RUN apk add --no-cache bash && \
     apk add git && \
     apk add yarn
 
-WORKDIR /usr/src/app
+# Remove default nginx config
+RUN rm /etc/nginx/conf.d/default.conf
+
+WORKDIR ${HUGO_SITE}
+
+EXPOSE 80 443
+
+COPY nginx.conf /etc/nginx/conf.d/redlake-tech.com.conf
 
 COPY . .
 
 RUN git submodule update --init --recursive && \
-    yarn install
+    yarn install && \
+    yarn build
 
-CMD ["/bin/bash"]
+CMD ["yarn", "run", "api:prod"]
