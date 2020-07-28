@@ -11,8 +11,8 @@ This is the site source.
     * If you are using HTTPS (not SSH), you'll need to update the submodule reference in your clone to the theme directory to HTTPS as well. See [this answer](https://stackoverflow.com/a/30885128/2486583).
 3. Run `git submodule update --init --recursive` to initialize the theme submodule after cloning.
 4. Run `docker-compose up -d`.
-5. Run `docker-compose exec hugo bash`.
-6. In the bash prompt that appears, run `yarn install`.
+5. Run `docker-compose exec web bash`.
+6. In the bash prompt that appears, run `yarn install`. This only needs to be run when installing new packages.
 7. Run `yarn start`.
 8. Visit http://localhost:5000
 

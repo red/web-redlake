@@ -1,8 +1,10 @@
 version: '3'
 
 services:
-    hugo:
+    web:
         build: ./docker.dev
+        networks:
+          - web
         ports:
           - '1313:1313'
           - '5000:5000'
@@ -11,3 +13,6 @@ services:
         stdin_open: true
         tty: true
         command: bash -c "nginx && bash"
+networks:
+    web:
+        driver: bridge
