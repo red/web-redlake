@@ -1,7 +1,7 @@
 ---
 title: Product Consulting
 weight: 1
-description: Check out our COVID-19 initative while we set up our product consulting business.
+description: We also do product consulting - read how.
 splash_type: "video"
 splash_src: >
   <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

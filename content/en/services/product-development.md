@@ -1,7 +1,7 @@
 ---
 title: Product Development
 weight: 3
-description: Check out our COVID-19 initiative while we set up our product development business.
+description: Check out how we can help set up your product development business.
 splash_type: "video"
 splash_src: >
   <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
