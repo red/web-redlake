@@ -8,21 +8,13 @@ splash_src: >
 blocks:
   - template: "media-feature"
     heading: "[RED](http://www.red-lang.org) is a great prototyping tool during design."
-    content: "Though we're still building our product design process we want to help - in the way we know best.
-      So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
-      Check our [COVID-19](/covid-19) initiative.
-      
-      We'll keep you posted on the benefits once we're out of stealth mode.
+    content: "The best way is to simply try this. A UI with DSL, a parse function to build DSLs that you can link to the DSLs, a reactor based framework and tons of other features. And you can cross-compile to ARM, macOS, Windows and Linux, with an average size of 1MB. That might fit in an L2 cache....
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "[RED](http://www.red-lang.org) has an unmatched ease and expresiveness for UIs - build mock-ups fast."
-    content: "Though we're still improving our UI engine and dialect we want to help - in the way we know best.
-      So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
-      Check our [COVID-19](/covid-19) initiative.
-      
-      We'll keep you posted on the benefits once we're out of stealth mode.
+    content: "But you can't just UIs fast - you can build DSLs to match your problem domain in a few days (sometimes hours). Link the UI to the problem domain and your mockup will be pretty close to your product.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
