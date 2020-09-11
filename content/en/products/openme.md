@@ -11,10 +11,10 @@ blocks:
   - template: "1up"
     heading: "Open Messaging Environment."
     content: |-
-      In design phase - stay tuned.
+      In design phase - stay tuned. SOme initial info to get you excited.
   - template: "media-feature"
     heading: "Open."
-    content: "Because in [RED](http://www.red-lang.org), we prefer to do things transparantly."
+    content: "Because in [RED](http://www.red-lang.org), we prefer to do things transparantly. In a world full of messaging products, our async group collaboration tools: OpenME will be open, so you can integrate fast and mold it to your use cases."
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
@@ -27,8 +27,7 @@ blocks:
       - title: "Environment"
         description: "The [RED](http://www.red-lang.org) way: one self-contained environment."
       - title: "Fast"
-        description: "... also the RED way ;-)"
-      - title: "And again: Open."
+      - description: "The environment will allow you to easily extend, adding workflows and features you need.And because it's in Red, that will be super simple. We will allow you to mold your environment to your needs - which is a whole different approach then a collaboration tool with some APIs."
         description: "Becuase we can't stress transparency enough."
   - template: "action-feature"
     heading: "Ready to Start Your Next Amazing Project?"
