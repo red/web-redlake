@@ -1,5 +1,5 @@
 ---
-title: Product Development
+title: Development
 weight: 3
 description: Check out how we can help set up your product development business.
 splash_type: "video"

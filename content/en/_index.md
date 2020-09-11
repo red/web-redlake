@@ -2,7 +2,7 @@
 title: Redlake Technologies
 blocks:
   - template: "hero"
-    heading: "We Are Building Software for the Next Generation of Innovators."
+    heading: "Software for the Next Generation"
     content: >
         Facts. Data. Diagram - stay informed, stay healthy. Download or view or [covid-19](/covid-19/) diagrams.
     button_text: "Contact Us"
@@ -12,21 +12,21 @@ blocks:
     num_cols: 3
     cards:
       - title: "Services"
-        description: Learn more about RED services.
+        description: Learn more about Red services.
         buttonText: "Learn More"
         buttonUrl: "/services/"
-      - title: "Our upcoming RED poducts."
+      - title: "Our upcoming Red poducts."
         description: Check it out..
         buttonText: "Learn More"
         buttonUrl: "/products/"
       - title: "Case Studies"
-        description: Learn more about case studies of projecr done with RED.
+        description: Learn more about case studies of projecr done with Red.
         buttonText: "Learn More"
         buttonUrl: "/case-studies/"
   - template: "2up"
-    heading: "Full-Stack Developers Using Full-Stack Technology- using [RED](https://www.red-lang.org/)."
+    heading: "Full-Stack Developers Using Full-Stack Technology- using [Red](https://www.red-lang.org/)."
     left: |-
-      [RED](https://www.red-lang.org/)’s ambitious goal is to build the world’s first full-stack language, a language you can use from system programming tasks, up to high-level scripting through DSL. You've probably heard of the term "Full-Stack Developer". But what is a full-stack Language, exactly?
+      [Red](https://www.red-lang.org/)’s ambitious goal is to build the world’s first full-stack language, a language you can use from system programming tasks, up to high-level scripting through DSL. You've probably heard of the term "Full-Stack Developer". But what is a full-stack Language, exactly?
 
       Other languages talk about having "one tool to rule them all". Red has that mindset too, pushed to the limit - it's a single executable that takes in your source files on any platform, and produces a packaged binary for any platform, from any other. The tool doesn’t depend on anything besides what came with your OS...shipping as a single executable that’s smaller than a megabyte.
 
