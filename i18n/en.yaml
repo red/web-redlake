@@ -8,6 +8,8 @@ service:
   other: Service
 product:
   other: Product
+store:
+  other: Store
 careers:
   other: Careers
 job_listing:
