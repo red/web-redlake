@@ -11,5 +11,5 @@ tags:
   - DiaGrammar
 ---
 
-Content TBD. Meanwhile checkout [DiaGrammar's product page](/products/diagrammar/)
+  DiaGrammar is your new best friend, whether you write DSLs, document data formats, or publish APIs. Users want to understand your design quickly. Diagrams foster understanding, communication, and adoption. Today's stakeholders demand that designs are thought-out, documented, and tested. You need to be as professional as possible. Don't hack, design. Don't hope, test. Don't guess, understand. Then show everyone what you've got with help of the auto-generated diagrams.
 

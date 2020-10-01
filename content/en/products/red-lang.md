@@ -18,31 +18,23 @@ blocks:
       We'll keep you posted on the ERP thingy once we're out of stealth mode.
       "
   - template: "media-feature"
-    heading: "RED feature 1: one, super-small executable."
-    content: "Though we're still building [RED](http://www.red-lang.org) we want to help - in the way we know best.
-      So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
-      Check our [COVID-19](/covid-19) initiative.
-      
-      We'll keep you posted on the features once we're out of stealth mode.
+    heading: "Red feature 1: one, super-small executable."
+    content: "Red features super small executables - around 1 MB. Your scripts will be compiled with a small runtime for dynamic code. This can be on Windows, Linux, ARM, macOS. We hope to get the compiler producing executables so small that they will fit in some L2 caches. Oh, and Red produces machine code directly, no dependencies on compiler abstraction layers...
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
-    heading: "RED feature 2: batteries included? More like a power plant."
-    content: "Though we're still building the power plant of batteries included with RED we want to help - in the way we know best.
-      So we have provided three auto-generated diagrams based on the [WHO](http://who.int) information.
-      Check our [COVID-19](/covid-19) initiative.
-      
-      We'll keep you posted on the features once we're out of stealth mode.
+    heading: "Red feature 2: batteries included? More like a power plant."
+    content: "Feature wise Red is very rich language. It includes full async I/O, a complete graphic system with a DSL for building UIs, a reactor framework, a parse function to quickly buld your own DSLs, and much, much, more. 
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
   - template: "accordion"
     accordion_items:
       - title: "Small"
-        description: "The whole Red toolchain is roughly 1 MB - in one executable."
+        description: "The whole Red toolchain itself is also roughly 1 MB - in one executable."
       - title: "Cross-platform"
-        description: "RED generates cross-platfork code.."
+        description: "RED generates cross-platform code..."
       - title: ".....and it can cross-compile too"
         description: "So you can build on your dev platform for your deployment platforms."
   - template: "action-feature"
