@@ -15,7 +15,7 @@ permalinks:
   case-studies: /:section/:slug/
   products: /:section/:slug/
   services: /:section/:slug/
-  store: /:section/:slug/
+  checkout: /:section/:slug/
 
 taxonomies:
   category: category
@@ -54,10 +54,10 @@ languages:
         #         Weight: 3
         #         Identifier: "case-studies"
         #         URL: "/case-studies/"
-        - Name: 'Store'
+        - Name: 'Checkout'
           Weight: 3
-          Identifier: 'store'
-          URL: '/store/'
+          Identifier: 'checkout'
+          URL: '/checkout/'
         - Name: 'Blog'
           Weight: 4
           Identifier: 'blog'

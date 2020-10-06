@@ -68,7 +68,7 @@ blocks:
     heading: "Get on Track, Get Moving, Build up some Steam"
     content: "Put DiaGrammar's engine to work for you. Head for the horizon. Don't miss the train."
     button_text: "Buy Now"
-    button_url: "/store/diagrammar"
+    button_url: "/checkout/diagrammar"
     bg_dark: false
   - template: "narrow-cta"
     description: "See Results"

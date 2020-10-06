@@ -8,8 +8,8 @@ service:
   other: Service
 product:
   other: Product
-store:
-  other: Store
+checkout:
+  other: Checkout
 careers:
   other: Careers
 job_listing:
