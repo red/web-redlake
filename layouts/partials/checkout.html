@@ -1,28 +1,8 @@
+<!-- <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+<script type="text/javascript">
+	Paddle.Setup({ vendor: 119900 });
+</script> -->
+
 <section class="py-12 md:py-24 relative">
-	<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
-	<script type="text/javascript">
-		Paddle.Setup({ vendor: 119900 });
-	</script>
-	<div class="card max-w-md m-auto">
-		<form action="/buy.rsp" method="POST">
-			<legend class="avenir-black font-bold text-grey-darker text-2xl no-underline">
-				Billing Information for your DiaGrammar Purchase
-			</legend>
-			<label class="text-grey-darker block text-base mt-4 mb-1" for="firstname">First name</label>
-			<input class="text-input" type="text" id="firstname" name="firstname" />
-			<label class="text-grey-darker block text-base mt-4 mb-1" for="lastname">Last name</label>
-			<input class="text-input" type="text" id="lastname" name="lastname" />
-			<label class="text-grey-darker block text-base mt-4 mb-1" for="address1"
-				>Address line 1</label
-			>
-			<input class="text-input" type="text" id="adress1" name="adress1" />
-			<label class="text-grey-darker block text-base mt-4 mb-1" for="address1"
-				>Address line 2</label
-			>
-			<input class="text-input" type="text" id="adress2" name="adress2" />
-			<button class="btn-outline btn-outline-red bg-transparent cursor-pointer mt-8" type="submit">
-				Submit
-			</button>
-		</form>
-	</div>
+	<checkout-component></checkout-component>
 </section>

@@ -6,7 +6,7 @@
 	{{ partial "page-title" (dict "category" (i18n "checkout") "title" .Title "page" .Params)}}
 
      <!-- Use page-specific blockloader, since we need to divide up some sections -->
-    {{ partial "checkout" (dict "Params" .) }}
+    {{ partial "checkout" . }}
 
     <div class="mt-12 md:mt-24 bg-theme-gradient border-top-theme w-full">
     </div>
