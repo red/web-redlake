@@ -54,10 +54,6 @@ languages:
         #         Weight: 3
         #         Identifier: "case-studies"
         #         URL: "/case-studies/"
-        - Name: 'Checkout'
-          Weight: 3
-          Identifier: 'checkout'
-          URL: '/checkout/'
         - Name: 'Blog'
           Weight: 4
           Identifier: 'blog'
