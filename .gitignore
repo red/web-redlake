@@ -1,3 +1,4 @@
+.env
 node_modules
 yarn-error.log
 
@@ -7,3 +8,5 @@ static/js/main.*.js
 static/js/vendor.*.js
 static/styles/main.*.css
 *.map
+
+yarn.lock
