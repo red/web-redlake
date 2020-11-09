@@ -1,0 +1,1 @@
+Keeping the Dockerfile in a separate context (this directory) makes building the image faster.

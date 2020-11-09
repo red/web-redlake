@@ -1,12 +1,12 @@
 ---
-baseURL: "https://beta.redlake-tech.com/"
+baseURL: 'https://beta.redlake-tech.com/'
 title: Redlake Technologies
-languageCode: "en-us"
+languageCode: 'en-us'
 metaDataFormat: yaml
-theme: "featherweight"
+theme: 'featherweight'
 pluralizeListTitles: false
 enableRobotsTXT: true
-defaultContentLanguage: "en"
+defaultContentLanguage: 'en'
 enableMissingTranslationPlaceholders: true
 paginate: 5 # Number of posts per page
 
@@ -15,6 +15,7 @@ permalinks:
   case-studies: /:section/:slug/
   products: /:section/:slug/
   services: /:section/:slug/
+  checkout: /:section/:slug/
 
 taxonomies:
   category: category
@@ -34,130 +35,131 @@ outputs:
 
 languages:
   en:
-    LanguageName: "English"
+    LanguageName: 'English'
     ContentDir: content/en
     params:
       Title: "Redlake Technologies"
       CopyrightHTML: "Copyright &#xA9; 2018-2020 Redlake Technologies Ltd"
     menu:
       main:
-        - Name: "Services"
+        - Name: 'Services'
           Weight: 1
-          Identifier: "services"
-          URL: "/services/"
-        - Name: "Products"
+          Identifier: 'services'
+          URL: '/services/'
+        - Name: 'Products'
           Weight: 2
-          Identifier: "products"
-          URL: "/products/"
- #       - Name: "Case Studies"
- #         Weight: 3
- #         Identifier: "case-studies"
- #         URL: "/case-studies/"
-        - Name: "Blog"
+          Identifier: 'products'
+          URL: '/products/'
+        #       - Name: "Case Studies"
+        #         Weight: 3
+        #         Identifier: "case-studies"
+        #         URL: "/case-studies/"
+        - Name: 'Blog'
           Weight: 4
-          Identifier: "blog"
-          URL: "/blog/"
-        - Name: "Contact Us"
+          Identifier: 'blog'
+          URL: '/blog/'
+        - Name: 'Contact Us'
           Weight: 5
-          Identifier: "contact"
-          URL: "/contact/"
+          Identifier: 'contact'
+          URL: '/contact/'
   fr:
-    LanguageName: "Français"
+    LanguageName: 'Français'
     ContentDir: content/fr
     params:
-      Title: "Redlake Technologies"
+      Title: 'Redlake Technologies'
       CopyrightHTML: "Droits d'auteur &#xA9; 2018 Redlake Technologies Ltd"
     blackfriday:
       angledQuotes: true
     menu:
       main:
-        - Name: "Prestations de service"
+        - Name: 'Prestations de service'
           Weight: 1
-          Identifier: "services"
-          URL: "/services/"
-        - Name: "Des produits"
+          Identifier: 'services'
+          URL: '/services/'
+        - Name: 'Des produits'
           Weight: 2
-          Identifier: "products"
-          URL: "/products/"
-        - Name: "Études de cas"
+          Identifier: 'products'
+          URL: '/products/'
+        - Name: 'Études de cas'
           Weight: 3
-          Identifier: "case-studies"
-          URL: "/case-studies/"
-        - Name: "Blog"
+          Identifier: 'case-studies'
+          URL: '/case-studies/'
+        - Name: 'Blog'
           Weight: 4
-          Identifier: "blog"
-          URL: "/blog/"
-        - Name: "Contactez nous"
+          Identifier: 'blog'
+          URL: '/blog/'
+        - Name: 'Contactez nous'
           Weight: 5
-          Identifier: "contact"
-          URL: "/contact/"
+          Identifier: 'contact'
+          URL: '/contact/'
   cn:
-    LanguageName: "简体中文"
+    LanguageName: '简体中文'
     ContentDir: content/cn
     params:
-      Title: "Redlake Technologies"
-      CopyrightHTML: "Copyright &#xA9; 2018 Redlake Technologies Ltd"
+      Title: 'Redlake Technologies'
+      CopyrightHTML: 'Copyright &#xA9; 2018 Redlake Technologies Ltd'
     menu:
       main:
-        - Name: "服务"
+        - Name: '服务'
           Weight: 1
-          Identifier: "services"
-          URL: "/services/"
-        - Name: "制品"
+          Identifier: 'services'
+          URL: '/services/'
+        - Name: '制品'
           Weight: 2
-          Identifier: "products"
-          URL: "/products/"
-        - Name: "实例探究"
+          Identifier: 'products'
+          URL: '/products/'
+        - Name: '实例探究'
           Weight: 3
-          Identifier: "case-studies"
-          URL: "/case-studies/"
-        - Name: "博客"
+          Identifier: 'case-studies'
+          URL: '/case-studies/'
+        - Name: '博客'
           Weight: 4
-          Identifier: "blog"
-          URL: "/blog/"
-        - Name: "联系我们"
+          Identifier: 'blog'
+          URL: '/blog/'
+        - Name: '联系我们'
           Weight: 5
-          Identifier: "contact"
-          URL: "/contact/"
+          Identifier: 'contact'
+          URL: '/contact/'
 
 params:
   navigation:
     social:
-      - Name: "Reddit"
+      - Name: 'Reddit'
         Weight: 1
-        Identifier: "reddit-alien"
-        URL: "https://www.reddit.com/r/redlang/"
-      - Name: "Facebook"
+        Identifier: 'reddit-alien'
+        URL: 'https://www.reddit.com/r/redlang/'
+      - Name: 'Facebook'
         Weight: 2
-        Identifier: "facebook-square"
-        URL: "https://facebook.com"
-      - Name: "Twitter"
+        Identifier: 'facebook-square'
+        URL: 'https://facebook.com'
+      - Name: 'Twitter'
         Weight: 3
-        Identifier: "twitter"
-        URL: "https://twitter.com/red_lang"
-      - Name: "Gitter"
+        Identifier: 'twitter'
+        URL: 'https://twitter.com/red_lang'
+      - Name: 'Gitter'
         Weight: 4
-        Identifier: "gitter"
-        URL: "https://gitter.im/red/red"
-      - Name: "GitHub"
+        Identifier: 'gitter'
+        URL: 'https://gitter.im/red/red'
+      - Name: 'GitHub'
         Weight: 5
-        Identifier: "github"
-        URL: "https://github.com/red/red"
-      - Name: "Telegram"
+        Identifier: 'github'
+        URL: 'https://github.com/red/red'
+      - Name: 'Telegram'
         Weight: 6
-        Identifier: "telegram"
-        URL: "https://t.me/redofficial"
+        Identifier: 'telegram'
+        URL: 'https://t.me/redofficial'
     ecosystem:
-      - Name: "Red Language"
+      - Name: 'Red Language'
         Weight: 1
-        Identifier: "redlang"
-        URL: "https://www.red-lang.org"
-      - Name: "Red Foundation"
+        Identifier: 'redlang'
+        URL: 'https://www.red-lang.org'
+      - Name: 'Red Foundation'
         Weight: 2
-        Identifier: "foundation"
-        URL: "https://foundation.red-lang.org"
-      - Name: "Redlake Technologies"
+        Identifier: 'foundation'
+        URL: 'https://foundation.red-lang.org'
+      - Name: 'Redlake Technologies'
         Weight: 4
-        Identifier: "redlake"
-        URL: "https://www.redlake-tech.com"
+        Identifier: 'redlake'
+        URL: 'https://www.redlake-tech.com'
 ---
+
