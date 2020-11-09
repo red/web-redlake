@@ -1,12 +1,7 @@
 ---
-title: Product Design
+title: Design
 weight: 2
-description: See how we can help with product design.
-<!--
-splash_type: "video"
-splash_src: >
-  <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
--->
+description: Commercial products, SaaS APIs, Desktop GUIs, system architecture, data models, legacy transitions, yeah, we do that.
 blocks:
   - template: "media-feature"
     heading: "The right tools for the job"
