@@ -2,11 +2,6 @@
 title: Consulting
 weight: 1
 description: We help you focus on what you really need, and clarify your vision, so you can reach your goals.
-<!--
-splash_type: "video"
-splash_src: >
-  <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
--->
 blocks:
   - template: "media-feature"
     heading: "It's always a team effort."
