@@ -2,11 +2,6 @@
 title: Development
 weight: 3
 description: Your idea? Groudbreaking. Your design? Beautiful. Now you just have to write some code...right?
-<!--
-splash_type: "video"
-splash_src: >
-  <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
--->
 blocks:
   - template: "media-feature"
     heading: "Concise code - less bugs."
