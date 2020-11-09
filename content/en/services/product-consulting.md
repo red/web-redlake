@@ -2,9 +2,11 @@
 title: Consulting
 weight: 1
 description: We also do product consulting - read how.
+<!--
 splash_type: "video"
 splash_src: >
   <iframe src="https://www.youtube-nocookie.com/embed/-KqNO_sDqm4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+-->
 blocks:
   - template: "media-feature"
     heading: "Red morphs into a language tailored to solve your problem."
