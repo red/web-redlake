@@ -15,10 +15,7 @@ blocks:
     heading: "We know software. You know your domain."
     content: "If you're a fan of Domain Driven Design (as we are) you already know that good DSLs match the domain vocabulary. This leaves less room for misiniterpretation and allows stakeholders and developers to speak the same language. Solving problems with teams requires communication. We aim to make it as effective as possible.
     
-    Technology is a means, not an end. Yes we're technologists and deep thinkers,
-    but we're also pragmatic and have deep experience across many industries. We don't
-    throw technology at a problem and hope for the best. We work to understand the ultimate
-    goal and match the solution to that need, keeping things as simple as possible.
+    Technology is a means, not an end. Yes we're technologists and deep thinkers, but we're also pragmatic and have deep experience across many industries. We don't throw technology at a problem and hope for the best. We work to understand the ultimate goal and match the solution to that need, keeping things as simple as possible.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
