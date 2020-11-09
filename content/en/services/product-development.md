@@ -10,8 +10,7 @@ splash_src: >
 blocks:
   - template: "media-feature"
     heading: "Concise code - less bugs."
-    content: "Red is a concise language, and its facilities for robustly building DSLs amplify his aspect. Don't take our word for it - just try it out. With more than 40 built-in datatypes you'll get plenty of
-    support from Red.
+    content: "Red is a concise language, and its facilities for robustly building DSLs amplify his aspect. Don't take our word for it - just try it out. With more than 40 built-in datatypes you'll get plenty of support from Red.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
