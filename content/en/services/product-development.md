@@ -8,19 +8,24 @@ splash_src: >
 blocks:
   - template: "media-feature"
     heading: "Concise code - less bugs."
-    content: "Red is a concise language, and its facilities for robustly building DSLs amplify this aspect. Don't take our word for it - just try it out. With more than 40 built-in datatypes you'll get plenty support from Red.
+    content: "Red is a concise language, and its facilities for robustly 
+    building DSLs amplify this aspect. Don't take our word for it - just 
+    try it out. With more than 40 built-in datatypes you'll get plenty of
+    support from Red.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "Simple things easy, hard things doable."
-    content: "This has been always Red's motto. Although maybe we should fit in distributed somewhere there - because as a messaging language, you'll be able to orchestrate distribute applications.
+    content: "This has been always Red's motto. Although maybe we should 
+    fit in distributed somewhere there - because as a messaging language, 
+    you'll be able to orchestrate distribute applications.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
   - template: "action-feature"
     heading: "Ready to Start Your Next Amazing Project?"
-    content: We’re excited to help you build it! Reach out to us and request a proposal from our team.
+    content: We’d love to help you build it! Reach out to us and pick our brains.
     button_text: "Contact Us"
     button_url: "/contact/"
     bg_dark: false
