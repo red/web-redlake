@@ -21,7 +21,7 @@ blocks:
     image_position: "left"
   - template: "media-feature"
     heading: "Let history help chart your course."
-    content: "We are risk-mitigating risk-takers. Pragmatic bleeding-edge luddites who don't choose technologies based on trends and fashion, but results. Just because something is new or popular doesn't mean its good. We won't just tell you what you want to hear, and we'll strongly suggest that you eat your vegetables. It's not about running as hard as you can, but winning the race.
+    content: "We are risk mitigators, and not afraid to take point. Pragmatic, bleeding-edge luddites who don't choose technologies based on trends and fashion, but results. Just because something is new or popular doesn't mean its good. We won't just tell you what you want to hear (eat your vegetables). It's not about running as hard as you can, but winning the race.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
