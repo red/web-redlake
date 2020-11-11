@@ -5,7 +5,7 @@ description: Commercial products, SaaS APIs, Desktop GUIs, system architecture, 
 blocks:
   - template: "media-feature"
     heading: "The right tools for the job."
-    content: "When designing a product, there are different stages and you need the right tool and skills for each one. From sketches on napkins and workflow outlines, through data exploration and UX experiments, to full prototypes. Transitioning from the idea stage, with pencil in hand, to seeing something work on the computer needs to happen quickly, and allow play (both in terms of fun and flexibility). We specialize in [Red](http://www.red-lang.org), which is a great prototyping tool, and so much more. Prototypes sometimes transition to production, whether you want them to or not. Red gives us that ability, without sacrificing robustness for speed.
+    content: "When designing a product, there are different stages and you need the right tool and skills for each one. From sketches on napkins and workflow outlines, through data exploration and UX experiments, to full prototypes. Transitioning from the idea stage, with pencil in hand, to seeing something work on the computer needs to happen quickly, and allow play (both in terms of fun and flexibility). We specialize in [Red](http://www.red-lang.org), which is a great prototyping tool, and so much more. Prototypes sometimes transition to production, whether you want them to or not. Red gives us that ability, without sacrificing robustness for speed.<br>
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
