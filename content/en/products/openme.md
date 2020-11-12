@@ -19,11 +19,11 @@ blocks:
   - template: "media-feature"
     heading: "Open"
     content: "OpenME aims to put you in control, as much as you want. Out of the box it's a
-      fully functional chat system. From there you can choose to self-host and build or buy
-      plugins. The data format will be fully documented, so you're never locked in, and 
-      because it's written in [Red](http://www.red-lang.org), which is its own data format,
-      you can easily write scripts to process data however you want. It's not just chat,
-      it's communication.
+    fully functional chat system. From there you can choose to self-host and build or buy
+    plugins. The data format will be fully documented, so you're never locked in, and 
+    because it's written in [Red](http://www.red-lang.org), which is its own data format,
+    you can easily write scripts to process data however you want. It's not just chat,
+    it's communication.
       "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "right"
@@ -33,7 +33,8 @@ blocks:
     it understands values like `#hashtags`, `@refs`, email addresses, urls, and more every 
     message contains sematic information that you use to your advantage. A chat message like 
     `Tell @Alice that issue #2038 is high priority` can easily update Alice's task list,
-    whether it's in OpenME or via an API call to your existing system."
+    whether it's in OpenME or via an API call to your existing system.
+      "
     image: "https://tailwindcss.com/img/card-top.jpg"
     image_position: "left"
   - template: "media-feature"
