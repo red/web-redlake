@@ -25,8 +25,6 @@ blocks:
       designs are thought-out, documented, and tested. You need to look 
       professional. More than that, you need to be professional.
       
-      
-      
       Don't hack, design. Don't hope, test. Don't guess, understand. Then
       show everyone what you've got. Live coding is the best, most
       productive way to do this. You get immediate feedback, see and fix
