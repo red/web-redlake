@@ -13,7 +13,7 @@ blocks:
     button_url: "/contact"
     image_position: "right"
   - template: "card-grid"
-    num_cols: 3
+    num_cols: 2
     cards:
       - title: "Products"
         description: We focus on developers, but not exclusively.
