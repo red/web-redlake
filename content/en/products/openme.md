@@ -29,7 +29,8 @@ blocks:
     image_position: "right"
   - template: "media-feature"
     heading: "Messaging"
-    content: "Because messages are more powerful than RPC calls. OpenME will allow sending messages that can be normal messages (chat-like) or trigger a workflow or task. Because
+    content: "Because messages are more powerful than RPC calls. OpenME will allow sending
+    messages that can be normal messages (chat-like) or trigger a workflow or task. Because
     it understands values like `#hashtags`, `@refs`, email addresses, urls, and more every 
     message contains sematic information that you use to your advantage. A chat message like 
     `Tell @Alice that issue #2038 is high priority` can easily update Alice's task list,
