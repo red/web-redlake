@@ -31,8 +31,8 @@ blocks:
     heading: "Messaging"
     content: "Because messages are more powerful than RPC calls. OpenME will allow sending
     messages that can be normal messages (chat-like) or trigger a workflow or task. Because
-    it understands values like `#hashtags`, `@refs`, email addresses, urls, and more every 
-    message contains sematic information that you use to your advantage. A chat message like 
+    it understands values like `#hashtags`, `@refs`, email addresses, urls, and more, every 
+    message contains sematic information that you can use to your advantage. A chat message like 
     `Tell @Alice that issue #2038 is high priority` can easily update Alice's task list,
     whether it's in OpenME or via an API call to your existing system.
       "
@@ -41,7 +41,7 @@ blocks:
   - template: "media-feature"
     heading: "Environment"
     content: "We'd love for OpenME to solve all your problems in one place, but that's not
-    possible for everyone. While while `Open` is key, so is `E`nvironment. The idea is that
+    possible for everyone. While `Open` is key, so is `E`nvironment. The idea is that
     we're most effective when we can focus and get into a flow state. Multitasking and 
     changing apps and tabs kills flow. Your brain has to remember different keystrokes,
     take in a new UI, and figure out how the systems map to one another. OpenME is designed
@@ -61,7 +61,7 @@ blocks:
         description: "OpenME is easy to extend, adding workflows and features you need. Mold it to your needs, seamlessly with plugins, or with calls to external APIs. In the OpenME universe, each \"world\" is separate and secure from others. In a trusted world things can go faster, but to communicate with other worlds you send messages. Those messages can be treated as passive content, or as code and commands. But this is not your ancestor's `eval`. Messages are dialected DSLs (Domain Specific Langauges), which gives you complete control over what they are allowed to do, or not."
   - template: "action-feature"
     heading: "Need custom OpenME extensions, consulting, or training?"
-    content: We’re here to help! Once OpenME is released, you can use it directly to contat us.
+    content: We’re here to help. Once OpenME is released, you can use it directly to contat us.
     button_text: "Contact Us"
     button_url: "/contact/"
     bg_dark: false
