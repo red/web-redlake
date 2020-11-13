@@ -15,18 +15,18 @@ blocks:
   - template: "card-grid"
     num_cols: 3
     cards:
+      - title: "Products"
+        description: We focus on developers, but not exclusively.
+        buttonText: "Learn More"
+        buttonUrl: "/products/"
       - title: "Services"
         description: Buy what we build, or have us help you build what you need.
         buttonText: "Learn More"
         buttonUrl: "/services/"
-      - title: "We focus on developers, but not exclusively."
-        description: Check it out..
-        buttonText: "Learn More"
-        buttonUrl: "/products/"
-      - title: "Case Studies"
-        description: See what's been done with Red.
-        buttonText: "Learn More"
-        buttonUrl: "/case-studies/"
+#      - title: "Case Studies"
+#        description: See what's been done with Red.
+#        buttonText: "Learn More"
+#        buttonUrl: "/case-studies/"
   - template: "2up"
     heading: "Full-Stack Developers Need Full-Stack Technology"
     left: |-
