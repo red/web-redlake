@@ -3,10 +3,10 @@ title: OpenME
 weight: 3
 description: >-
  Open Messaging Environment. (Under Design)
-splash_type: "image"
-splash_src: "https://tailwindcss.com/img/card-top.jpg"
-cta_text: "Launch Product"
-cta_url: https://www.red-lang.org
+#splash_type: "image"
+#splash_src: "https://tailwindcss.com/img/card-top.jpg"
+#cta_text: "Launch Product"
+#cta_url: https://www.red-lang.org
 blocks:
   - template: "1up"
     heading: "Open Messaging Environment"

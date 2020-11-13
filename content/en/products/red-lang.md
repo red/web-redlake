@@ -3,10 +3,10 @@ title: Red Language
 weight: 2
 description: >-
   [Red](http://www.red-lang.org) is a next-gen programming language, based on Rebol's deep design, and completely open source. It aims to fight software complexity on all fronts. If complexity is your enemy, Red is your friend.
-splash_type: "image"
-splash_src: "https://tailwindcss.com/img/card-top.jpg"
-cta_text: "Launch Product"
-cta_url: https://www.red-lang.org
+#splash_type: "image"
+#splash_src: "https://tailwindcss.com/img/card-top.jpg"
+#cta_text: "Launch Product"
+#cta_url: https://www.red-lang.org
 blocks:
   - template: "1up"
     heading: "Red isn't for sale. It's free and open source."
