@@ -22,14 +22,14 @@ blocks:
   - template: "card-grid"
     num_cols: 2
     cards:
-      - title: "Products"
-        description: We focus on developers, but not exclusively.
-        buttonText: "Learn More"
-        buttonUrl: "/products/"
       - title: "Services"
         description: Buy what we build, or have us help you build what you need.
         buttonText: "Learn More"
         buttonUrl: "/services/"
+      - title: "Products"
+        description: We focus on developers, but not exclusively.
+        buttonText: "Learn More"
+        buttonUrl: "/products/"
 #      - title: "Case Studies"
 #        description: See what's been done with Red.
 #        buttonText: "Learn More"
