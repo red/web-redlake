@@ -62,64 +62,64 @@ languages:
           Weight: 5
           Identifier: 'contact'
           URL: '/contact/'
-  fr:
-    LanguageName: 'Français'
-    ContentDir: content/fr
-    params:
-      Title: 'Redlake Technologies'
-      CopyrightHTML: "Droits d'auteur &#xA9; 2018 Redlake Technologies Ltd"
-    blackfriday:
-      angledQuotes: true
-    menu:
-      main:
-        - Name: 'Prestations de service'
-          Weight: 1
-          Identifier: 'services'
-          URL: '/services/'
-        - Name: 'Des produits'
-          Weight: 2
-          Identifier: 'products'
-          URL: '/products/'
-        - Name: 'Études de cas'
-          Weight: 3
-          Identifier: 'case-studies'
-          URL: '/case-studies/'
-        - Name: 'Blog'
-          Weight: 4
-          Identifier: 'blog'
-          URL: '/blog/'
-        - Name: 'Contactez nous'
-          Weight: 5
-          Identifier: 'contact'
-          URL: '/contact/'
-  cn:
-    LanguageName: '简体中文'
-    ContentDir: content/cn
-    params:
-      Title: 'Redlake Technologies'
-      CopyrightHTML: 'Copyright &#xA9; 2018 Redlake Technologies Ltd'
-    menu:
-      main:
-        - Name: '服务'
-          Weight: 1
-          Identifier: 'services'
-          URL: '/services/'
-        - Name: '制品'
-          Weight: 2
-          Identifier: 'products'
-          URL: '/products/'
-        - Name: '实例探究'
-          Weight: 3
-          Identifier: 'case-studies'
-          URL: '/case-studies/'
-        - Name: '博客'
-          Weight: 4
-          Identifier: 'blog'
-          URL: '/blog/'
-        - Name: '联系我们'
-          Weight: 5
-          Identifier: 'contact'
-          URL: '/contact/'
+#  fr:
+#    LanguageName: 'Français'
+#    ContentDir: content/fr
+#    params:
+#      Title: 'Redlake Technologies'
+#      CopyrightHTML: "Droits d'auteur &#xA9; 2018 Redlake Technologies Ltd"
+#    blackfriday:
+#      angledQuotes: true
+#    menu:
+#      main:
+#        - Name: 'Prestations de service'
+#          Weight: 1
+#          Identifier: 'services'
+#          URL: '/services/'
+#        - Name: 'Des produits'
+#          Weight: 2
+#          Identifier: 'products'
+#          URL: '/products/'
+#        - Name: 'Études de cas'
+#          Weight: 3
+#          Identifier: 'case-studies'
+#          URL: '/case-studies/'
+#        - Name: 'Blog'
+#          Weight: 4
+#          Identifier: 'blog'
+#          URL: '/blog/'
+#        - Name: 'Contactez nous'
+#          Weight: 5
+#          Identifier: 'contact'
+#          URL: '/contact/'
+#  cn:
+#    LanguageName: '简体中文'
+#    ContentDir: content/cn
+#    params:
+#      Title: 'Redlake Technologies'
+#      CopyrightHTML: 'Copyright &#xA9; 2018 Redlake Technologies Ltd'
+#    menu:
+#      main:
+#        - Name: '服务'
+#          Weight: 1
+#          Identifier: 'services'
+#          URL: '/services/'
+#        - Name: '制品'
+#          Weight: 2
+#          Identifier: 'products'
+#          URL: '/products/'
+#        - Name: '实例探究'
+#          Weight: 3
+#          Identifier: 'case-studies'
+#          URL: '/case-studies/'
+#        - Name: '博客'
+#          Weight: 4
+#          Identifier: 'blog'
+#          URL: '/blog/'
+#        - Name: '联系我们'
+#          Weight: 5
+#          Identifier: 'contact'
+#          URL: '/contact/'
 
 params:
   navigation:
