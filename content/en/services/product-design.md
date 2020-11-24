@@ -15,6 +15,12 @@ blocks:
       "
     image: "images/design-hands-on-desk-sm.jpg"
     image_position: "left"
+  - template: "media-feature"
+    heading: "Design is an edge piece."
+    content: "It's not the whole puzzle, but it's where you need to start. And the more you know about the end game, the better you can position yourself in the beginning. Our combination of broad, real-world experience and history of building systems companies rely on informs how we design systems so they can be built successfully and maintained for the long haul.<br>
+      "
+    image: "images/design-wordcloud-sm.png"
+    image_position: "right"
   - template: "action-feature"
     heading: "Hit us with your best shot."
     content: Think you can stump us? Think again.
