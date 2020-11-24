@@ -53,7 +53,7 @@ blocks:
     heading: "Work with us to build the future."
     content: >
       Our experience is broad and deep. We can help, whether you have an exciting new idea and need help forming it, legacy systems that need to be replaced, or require robust data processing that keeps the world turning. We love a challenge.
-    image: "/images/dev-infograph-1.png"
+    image: "/images/holding-globe-sm.jpg"
     image_position: "right"
     button_text: "Contact Us"
     button_url: "/contact/"
