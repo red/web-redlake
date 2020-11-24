@@ -19,7 +19,7 @@ blocks:
     image_position: "left"
   - template: "media-feature"
     heading: "Filling in the middle."
-    content: "Just as Design outlines the picture, Development is where you connect all the pieces. If you focus on finding one piece, it stops everything else. The trick is to step back and see the big picture, find groups of pieces that fit together, and look for patterns. Learning to balance top down and bottom up work, and seeing what sections post the most challenges comes from experience. Accept no substitute.<br>
+    content: "Just as Design outlines the picture, Development is where you connect all the pieces. If you focus on finding one piece, it stops everything else. The trick is to step back and see the big picture, find groups of pieces that fit together, and look for patterns. Learning to balance top down and bottom up work, and seeing what sections pose the most challenges comes from experience. Accept no substitute.<br>
       "
     image: "images/dev-wordcloud-sm.png"
     image_position: "right"
