@@ -9,7 +9,7 @@ blocks:
     
     For new businesses we do market research and provide technology roadmaps so you can make informed decisions. If you're an esatablished business, looking ahead and trying to keep up with a changing world, we evaluate where you are now and figure out how to get you there from here. Just keeping up isn't enough for us though. We want to put you ahead of the curve so you're leading the pack.
       "
-    image: "/images/dev-team-3.jpg"
+    image: "/images/dev-team-3-sm.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "We know software. You know your domain."
@@ -17,13 +17,13 @@ blocks:
     
     Technology is a means, not an end. Yes we're technologists and deep thinkers, but we're also pragmatic and have deep experience across many industries. We don't throw technology at a problem and hope for the best. We work to understand the ultimate goal and match the solution to that need, keeping things as simple as possible.
       "
-    image: "/images/dev-team-2.jpg"
+    image: "/images/dev-team-2-sm.jpg"
     image_position: "left"
   - template: "media-feature"
     heading: "Let history help chart your course."
     content: "We are risk mitigators, and not afraid to take point. Pragmatic, bleeding-edge luddites who don't choose technologies based on trends and fashion, but results. Just because something is new or popular doesn't mean its good. We won't just tell you what you want to hear (eat your vegetables). It's not about running as hard as you can, but winning the race.
       "
-    image: "/images/dev-team-done.jpg"
+    image: "/images/dev-team-done-sm.jpg"
     image_position: "right"
   - template: "action-feature"
     heading: "Pick Our Brains"
