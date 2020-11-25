@@ -81,7 +81,7 @@ blocks:
   - template: "action-feature"
     heading: "Get on Track, Get Moving, Build up some Steam"
     content: "Put DiaGrammar's engine to work for you. Head for the horizon. Don't miss the train."
-    button_text: "Try Now"
+    button_text: "Download and Try it Now!"
     button_url: "/releases/DiaGrammar_2020-11-24_RC2.zip"
     bg_dark: false
   - template: "narrow-cta"
