@@ -84,8 +84,4 @@ blocks:
     button_text: "Buy Now"
     button_url: "/checkout/diagrammar"
     bg_dark: false
-  - template: "narrow-cta"
-    description: "See Results"
-    link_url: "gallery/"
-    link_text: "Check out the Gallery"
 ---
