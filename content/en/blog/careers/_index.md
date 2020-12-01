@@ -10,7 +10,7 @@ category: jobs
 tags:
   - company
 ---
-Redlake Technologies (formerly Redlake Technologies) is a small, dynamic company on a mission to prove that we can provide development tools, technologies, and services that are easier to use, less expensive to operate, and more flexible. With a foundation built on open source Red Language technologies, we want to show that companies can win by joining the fight against software complexity.
+Redlake Technologies (formerly Fullstack Technologies) is a small, dynamic company on a mission to prove that we can provide development tools, technologies, and services that are easier to use, less expensive to operate, and more flexible. With a foundation built on open source Red Language technologies, we want to show that companies can win by joining the fight against software complexity.
 
 A lot of companies say they're different, in hip and trendy ways. We're not like that, but we are very different. We value old-school sensibilities, and aren't afraid to build things from the ground up, rather than just looking for packages and copy-pasting code. Hard work is its own reward for us, along with getting to use the technology we build and love. 
 
