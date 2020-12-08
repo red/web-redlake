@@ -5,20 +5,6 @@
 	</script>
 </head>
 
-{{ define "title" }}
-    {{ .Title }} &ndash; {{ .Site.Params.Title }}
-{{ end }}
-
-{{ define "main" }}
-	{{ partial "page-title" (dict "category" (i18n "checkout") "title" .Title "page" .Params)}}
-
-     <!-- Use page-specific blockloader, since we need to divide up some sections -->
-<!--
-    {{ partial "checkout" . }}
--->
+<body>
     <a href="#!" class="paddle_button" data-product="616859">Buy Now!</a>
-
-    <div class="mt-12 md:mt-24 bg-theme-gradient border-top-theme w-full">
-    </div>
-
-{{ end }}
+</body>
