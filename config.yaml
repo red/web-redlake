@@ -1,4 +1,9 @@
 ---
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      
 baseURL: 'https://beta.redlake-tech.com/'
 title: Redlake Technologies
 languageCode: 'en-us'
