@@ -1,16 +1,14 @@
-<head>
-	<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
-	<script type="text/javascript">
-		Paddle.Setup({ vendor: 119900 });
-	</script>
-</head>
-
 {{ define "title" }}
     {{ .Title }} &ndash; {{ .Site.Params.Title }}
 {{ end }}
 
 {{ define "main" }}
 	{{ partial "page-title" (dict "category" (i18n "checkout") "title" .Title "page" .Params)}}
+
+	<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+	<script type="text/javascript">
+		Paddle.Setup({ vendor: 119900 });
+	</script>
 
      <!-- Use page-specific blockloader, since we need to divide up some sections -->
     <a href="#!" class="paddle_button" data-product="616859">Buy Now!</a>
