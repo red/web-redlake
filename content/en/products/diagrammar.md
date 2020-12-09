@@ -5,7 +5,7 @@ description: >-
   DiaGrammar is your new best friend, whether you write DSLs, document data formats, or publish APIs. Users want to understand your design quickly. Diagrams foster understanding, communication, and adoption. Today's stakeholders demand that designs are thought-out, documented, and tested. You need to look professional. More than that, you need to be professional. Don't hack, design. Don't hope, test. Don't guess, understand. Then show everyone what you've got.
 splash_type: "image"
 splash_src: "/images/URL-ABNF-screenshot.png"
-cta_text: "Only USD$79.  Buy Now!"
+cta_text: "Introductory Price Only USD$79.  Buy Now!"
 cta_url: "/checkout/diagrammar"
 blocks:
   - template: "1up"
