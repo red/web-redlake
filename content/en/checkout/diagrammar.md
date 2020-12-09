@@ -16,7 +16,7 @@ blocks:
       drop-and-go, and you'll have dozens of examples, with 7 metagrammars
       to choose from. Who knew creating professional diagrams could be fun
       and easy?
-      
+      <br>
       <div class="container mx-auto flex flex-col items-center">
           <a href="#!" class="paddle_button" data-product="616859">Checkout now</a>
       </div>
