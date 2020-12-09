@@ -17,8 +17,10 @@ blocks:
       to choose from. Who knew creating professional diagrams could be fun
       and easy?
       
-      <a href="#!" class="paddle_button" data-product="616859" data-theme="none">Checkout now</a>
-
+      <div class="container mx-auto flex flex-col items-center">
+          <a href="#!" class="paddle_button" data-product="616859">Checkout now</a>
+      </div>
+      
   - template: "1up"
     heading: "Why should I buy it?"
     content: |-
@@ -28,13 +30,13 @@ blocks:
       you the full picture. You can download the free version, but we're
       confident you'll be back once you see it in action. Buying it now
       just saves you some time.
-      
+      <br><br>
       When you buy a DiaGrammar license, you get free updates until the next 
       major version, and then a nice discount when you upgrade. And your 
       support ensures that we can be there to support you, with new features, 
       assistance, and fixes for the long haul. There's nothing worse than 
       coming to depend on a tool and having it disappear or go stagnant.
-      
+      <br><br>
       We're confident that nothing comes close to what DiaGrammar has to offer,
       and there's more to come. You want easy sharing and collaboration? A way
       to keep your grammars and diagrams safe and available on all your systems?
