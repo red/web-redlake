@@ -17,7 +17,7 @@ blocks:
       to choose from. Who knew creating professional diagrams could be fun
       and easy?
       
-      <a href="#!" class="paddle_button" data-product="616859" align="center" color="F0B030">Checkout now</a>
+      <a href="#!" class="paddle_button" data-product="616859" data-theme="none">Checkout now</a>
 
   - template: "1up"
     heading: "Why should I buy it?"
