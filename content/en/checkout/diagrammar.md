@@ -48,6 +48,6 @@ blocks:
     heading: "Free Ride"
     content: "Not ready to buy a ticket?"
     button_text: "Download and Try it Now."
-    button_url: "/releases/DiaGrammar_2020-11-27_RC4.zip"
+    button_url: "/releases/DiaGrammar_2020-12-11_RC5.zip"
     bg_dark: false
 ---
