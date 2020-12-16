@@ -83,7 +83,7 @@ blocks:
     heading: "Get on Track, Get Moving, Build up some Steam"
     content: "Put DiaGrammar's engine to work for you. Head for the horizon. Don't miss the train."
     button_text: "Download and Try it Now!"
-    button_url: "/releases/DiaGrammar_DiaGrammar_v1.0.zip"
+    button_url: "/releases/DiaGrammar_v1.0.zip"
     bg_dark: false
   - template: "narrow-cta"
     description: "See Results"
