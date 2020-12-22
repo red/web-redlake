@@ -1,6 +1,6 @@
 ---
 title: Low-level System Developer
-date: 2018-10-27T01:01:17.000Z
+date: 2020-12-01T01:01:17.000Z
 description: >-
   If you know OS level coding, are familiar with multiple operating systems, and
   like the level of C, that's what we're talking about. You won't be using C,
