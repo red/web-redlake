@@ -85,8 +85,8 @@ blocks:
     button_text: "Download and Try it Now!"
     button_url: "/releases/DiaGrammar_v1.0.zip"
     bg_dark: false
-  - template: "narrow-cta"
-    description: "See Results"
-    link_url: "gallery/"
-    link_text: "Check out the Gallery"
+#  - template: "narrow-cta"
+#    description: "See Results"
+#    link_url: "gallery/"
+#    link_text: "Check out the Gallery"
 ---
