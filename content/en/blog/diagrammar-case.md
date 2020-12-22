@@ -1,5 +1,5 @@
 ---
-title: DiaGrammar: Coming in 2020
+title: 'DiaGrammar: Coming in 2020'
 date: 2020-02-09T12:00:00.000Z
 slug: DiaGrammar brings live-coding to syntax diagrams
 author: DiaGrammar Team
