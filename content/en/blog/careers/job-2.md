@@ -1,6 +1,6 @@
 ---
 title: Web Swinger
-date: 2018-12-11T20:01:17-05:00
+date: 2020-12-11T20:01:17-05:00
 description: >-
   Web developer who can wear other hats as needed.
 hero_type: image
