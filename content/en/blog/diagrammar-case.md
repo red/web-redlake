@@ -1,7 +1,7 @@
 ---
-title: DiaGrammar and Case Sensitive Parsing
+title: DiaGrammar: Coming in 2020
 date: 2020-02-09T12:00:00.000Z
-slug: DiaGrammar and Case Sensitive Parsing
+slug: DiaGrammar brings live-coding to syntax diagrams
 author: DiaGrammar Team
 hero_type: image
 hero_src: >-
