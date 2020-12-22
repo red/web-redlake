@@ -6,7 +6,6 @@ description: >-
   like the level of C, that's what we're talking about. You won't be using C,
   but a language that lives at the same level, while being more modern, and part
   of a full-stack (metal to meta) toolchain.
-  author: Nenad Rankocevic
 hero_type: image
 hero_src: >-
   https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
@@ -46,4 +45,4 @@ Lean startup salary, coffee subsidy, the chance to change the world. We’re a t
 
 Please submit your resume, cover letter, and any relevant links (e.g. Github/bitbucket/personal website). Please, no phone calls, drop-ins, or recruiters.
 
-[Apply Here](https://www.red-lang.org)
+[Apply Here](mailto:gregg@redlake-tech.com)
