@@ -11,7 +11,7 @@ tags:
   - DiaGrammar
 ---
 
-Redlake is pleased to announce the official release of Diagrammar 1.0 for Windows! You can find the details, download, and purchase [here](https://www.redlake-tech.com/products/diagrammar-for-windows/)
+Redlake is pleased to announce the official release of Diagrammar 1.0 for Windows! You can find the details, download, and purchase [here](https://www.redlake-tech.com/products/diagrammar-for-windows/).
 
 We're confident you've never seen anything like DiaGrammar. It's a live code environment that generates railroad (syntax) diagrams as you write your grammar in any number of supported formats, like ABNF, YACC, McKeeman, Red's PEG-like `parse`, and regex. And while its main purpose is to generate diagrams you can use to share and vet your design, it also lets you test your grammar using single inputs or entire directories of them. You can test against any rule in your grammar, to check elements for correctness at a granular level. With the Pack feature, you can zip your grammar and all its test inputs in one click, so others can test and play.
 
