@@ -3,6 +3,7 @@ title: Web Swinger
 date: 2020-12-11T20:01:17-05:00
 description: >-
   Web developer who can wear other hats as needed.
+author: Redlake
 hero_type: image
 hero_src: >-
   https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
