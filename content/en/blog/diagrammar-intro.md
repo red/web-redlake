@@ -11,7 +11,7 @@ tags:
   - DiaGrammar
 ---
 
-##Diagrammar and the importance of a postal address
+## Diagrammar and the importance of a postal address
 
 Post is important to us. Both for personal reasons, administrative post and online deliveries. During the holidays, on your birthday, post has value, just like a package that was gifted or ordered. And then there is the necessary administrative post - voting by post during corona as an example.
 
@@ -36,7 +36,7 @@ ANYTOWN AZ 01234
 What makes this extra interesting is that the US is a federation, so you get the added bonus of a state as "routing layer" in the address. We wanted to write a grammar for a widely used address scheme that is also reasonably well-known. The US address scheme seems a good candidate, so we'll go with that.
 
 
-##Defining a grammar
+## Defining a grammar
 
 If you think about it , an address is a piece of routing information botttom-up.
 First the name, then the road, then (optional) direction, then number, then town the state. Only zip code breaks the layering, but we'll accept that as exception to the rule.
