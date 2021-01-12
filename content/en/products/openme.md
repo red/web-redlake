@@ -61,7 +61,7 @@ blocks:
         description: "OpenME is easy to extend, adding workflows and features you need. Mold it to your needs, seamlessly with plugins, or with calls to external APIs. In the OpenME universe, each \"world\" is separate and secure from others. In a trusted world things can go faster, but to communicate with other worlds you send messages. Those messages can be treated as passive content, or as code and commands. But this is not your ancestor's `eval`. Messages are dialected DSLs (Domain Specific Langauges), which gives you complete control over what they are allowed to do, or not."
   - template: "action-feature"
     heading: "Need custom OpenME extensions, consulting, or training?"
-    content: We’re here to help. Once OpenME is released, you can use it directly to contat us.
+    content: We’re here to help. Once OpenME is released, you can use it directly to contact us.
     button_text: "Contact Us"
     button_url: "/contact/"
     bg_dark: false
