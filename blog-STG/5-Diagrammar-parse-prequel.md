@@ -25,7 +25,7 @@ Which means that you can match on a type (typically ending in an exclamation mar
 
 An example: parse [ sell all MSFT shares after 05/09/2021] ['sell 'all 'MSFT 'shares 'after date! (sell-shares 'MFSFT')]
 
-The quotes allow you to use literal words, and the date is matched not as string, but as the date! type. If there is a match we use an action (the paren) to call a fictitious function that will sell the microsoft function.
+The quotes allow you to use literal words, and the date is matched not as string, but as the date! type. If there is a match we use an action (the paren) to call a fictitious function that will sell the microsoft shares.
 
 We can do this, because in Red data is code is data, so anything in a block has a type and blocks can be manipulated, parsed and executed. These are both valid Red:
 
@@ -41,7 +41,7 @@ Once you start using your Red parsers there are a few handy things to know in Re
 
 - as you get more rules, use an `object!` to group them, and keep intermediate state
 - files start with a % sign, so you'd get %/C/path/to/my/cool/parser.red
-- you can write e.g. your rules to disk with `write %/C/path/to/my/cool/parser.red mold rules`. This assumes all you rules are in an object.
+- you can write e.g. your rules to disk with `write %/C/path/to/my/cool/parser.red mold rules`. This assumes all you rules are in an object called `rules`.
 - conversely, you'll get the object with all your rules back by load `%/C/path/to/my/cool/parser.red`
 
 
