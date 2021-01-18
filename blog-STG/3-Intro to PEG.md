@@ -1,5 +1,5 @@
 ---
-title: An intro to DiaGrammar
+title: DiaGrammar: an beginner's guideto PEG parsing
 date: 2021-01-15T12:00:00.000Z
 slug: An intro to DiaGrammar
 author: DiaGrammar Team
@@ -13,7 +13,7 @@ tags:
 ## What is a grammar?
 
 A grammar is a set of rules that describe what a piece of text should look like, often
-in an (abstract) syntax tree form. There are various classes of grammars, such as 
+in an (abstract) syntax tree. There are various classes of grammars, such as 
 recursive-descent (LL(k)) - a top down form, LALR - also top-down - so we have a top-down family.
 Then we have PEG parsers, and packrat parsers, that typically execute PEG parsers via memoization
 (memoization is the fact that you compute an expression once, so it speeds up parsing. The downside
@@ -59,7 +59,7 @@ A simple example:
 will copy the number 10 to the word n.
 
 This is just a teaser, we'll dive into (block) parse/parsing and PEG much deeper in coming articles. But I hope you
-appreciate the depth that can be achieved using the Red grammar, and the ease with which you could e.g. write a DSL.
+appreciate the depth that can be achieved using the Red parse rules, and the ease with which you could e.g. write a DSL.
 
 
 

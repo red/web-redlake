@@ -1,5 +1,5 @@
 ---
-title: An intro to DiaGrammar
+title: DiaGrammar: What is a grammar?
 date: 2021-01-15T12:00:00.000Z
 slug: An intro to DiaGrammar
 author: DiaGrammar Team
@@ -24,7 +24,7 @@ to generate a parser.
 
 ## Grammars vs metagrammars
 
-DiaGrammar has an extra treat - it can't just parse using it's extremely powerful Red dialect,
+DiaGrammar has an extra treat - it can't just parse using it's extremely powerful Red parse rules,
 but also using a thing called metagrammars. So what is metagrammar?
 
 A metagrammar is written in Red and translates the "foreign" grammar into something DiaGrammar 
@@ -33,13 +33,13 @@ are written in Red, but they typically operate behind the scenes.
 
 So how to use them for e.g. ABNF? There's more than one way to do it...
 
-- if you open a rule and the extension is `abnf` DiaGrammar will load the metagrammar for you.
+- if you open a rule and the extension is `abnf` DiaGrammar will load the metagrammar for you, provided it is supported.
 - if you go to the the menu, preferences, then select metagrammar. Now enter the rules directory and 
   select one of the meta files. This is you new grammar type.
 
  In stead of giving an example I encourage you to try this feature first. Or you could browse into the
- `abnf` subdirectory, in the file dialog select "all files", and choose `json.abnf`. Now one little 
- extra that popped up is the translate button - say you wanted to see the Red version. 
+ `abnf` subdirectory, in the file dialog select "all files", and choose `json.abnf`. There is a json test directory, just load one of the exaples in the graamar area. Now one little extra that popped up is the translate button - say you wanted to see the Red version. 
+ 
  Click "Translate" and the pop-up shows the Red version. That's what metagrammars can do for you. 
  Pretty cool if you ask me.
 
