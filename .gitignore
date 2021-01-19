@@ -10,3 +10,4 @@ static/styles/main.*.css
 *.map
 
 yarn.lock
+.DS_Store
