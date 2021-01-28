@@ -1,7 +1,7 @@
 ---
 title: 'DiaGrammar 1.1 Available Now!'
 date: 2021-01-27T12:00:00.000Z
-slug: Kaarel Eenpalu was born on this day
+# slug: Kaarel Eenpalu was born on this day
 author: DiaGrammar Team
 hero_type: image
 hero_src: >-
