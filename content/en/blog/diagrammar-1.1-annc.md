@@ -39,7 +39,11 @@ DG makes this so easy natively (e.g. you can `ctrl+scroll` to navigate a rule at
 
 Side Note: We have since found and even larger ABNF grammar, for Excel formulas. It has 1'145 rules and would render to a diagram 2634x216235 pixels in size. How do we know this, if it's too big to render? Red to the rescue again. We wrote a script to tally the size of all images in a folder, if stacked vertically, then exported each rule as a separate image and ran that script against them.
 
+## Conclusion
 
+We hope you enjoy this new release, and please keep the feedback and feature requests coming. Join us at https://gitter.im/redlake-comm/DiaGrammar and let us know what you're doing with DiaGrammar.
+
+Happy diagramming!
 
 ## DiaGrammar 1.1 Changelog
 
