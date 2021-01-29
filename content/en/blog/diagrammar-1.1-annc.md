@@ -37,7 +37,7 @@ But one of our biggest surprises came when we found the OData ABNF grammar. It's
 
 DG makes this so easy natively (e.g. you can `ctrl+scroll` to navigate a rule at a time in the diagram, or hover over it to see its definition pop up right where you are) that we didn't realize how painful it is with many other image viewing tools. But having a large number of separate PNGs may not be easy either, so we came up with a better solution. There's a new `Selection` feature that lets you select any contiguous group of complete rules and only those rules will be diagrammed and exported. This lets you, for example, select all the numeric or date related rules in your grammar and render them as a plate-sized diagram (if separate rules are bite-sized and the entire grammar is a buffet). 
 
-Side Note: We have since found and even larger ABNF grammar, for Excel formulas. It has 1'145 rules and would render to a diagram 2634x216235 pixels in size. How do we know this, if it's too big to render? Red to the rescue again. We wrote a script to tally the size of all images in a folder, if stacked vertically, then exported each rule as a separate image and ran that script against them.
+Side Note: We have since found an even larger ABNF grammar, for Excel formulas. It has 1'145 rules and would render to a diagram 2634x216235 pixels in size. How do we know this, if it's too big to render? Red to the rescue again. We wrote a script to tally the size of all images in a folder, if stacked vertically, then exported each rule as a separate image and ran that script against them.
 
 ## Conclusion
 
