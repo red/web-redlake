@@ -44,7 +44,7 @@ languages:
     ContentDir: content/en
     params:
       Title: "Redlake Technologies"
-      CopyrightHTML: "Copyright &#xA9; 2018-2020 Redlake Technologies Ltd"
+      CopyrightHTML: "Copyright 2018 Redlake Technologies Ltd"
     menu:
       main:
         - Name: 'Services'
