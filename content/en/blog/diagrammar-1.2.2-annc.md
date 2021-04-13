@@ -29,7 +29,7 @@ We hope this will ease the learning curve a bit.
 ## Conclusion
 
 We hope you enjoy this release, and please keep the feedback and
-feature requests coming. Join us at https://gitter.im/redlake-comm/DiaGrammar
+feature requests coming. Join us on [Gitter](https://gitter.im/redlake-comm/DiaGrammar)
 and let us know what you're doing with DiaGrammar.
 
 Happy diagramming!
@@ -54,7 +54,5 @@ FIX: Exporting unsaved grammar now defaults to %new.png.
 FEAT: Live Parsing is now off for all rules by default.
 
 FIX: Bookmark window placement.
-
-   
 ```
 
