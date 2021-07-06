@@ -11,7 +11,6 @@ category: jobs
 tags:
   - company
 ---
-
 ## About the Role
 
 Redlake uses the Red and Red/System languages for most of our work, but you're on the website and we need that too. This position requires knowledge of web development, currently Hugo and Vue, and the ability to work with APIs. You'll also help manage servers and containers.
