@@ -14,15 +14,9 @@ tags:
 
 ## About the Role
 
-Redlake uses the Red and Red/System languages for most of our work, but
-you're on the website and we need that too. This position requires
-knowledge of web development, currently Hugo and Vue, and the ability to
-work with APIs. You'll also help manage servers and containers.
+Redlake uses the Red and Red/System languages for most of our work, but you're on the website and we need that too. This position requires knowledge of web development, currently Hugo and Vue, and the ability to work with APIs. You'll also help manage servers and containers.
 
-We're a small team creating a self-hosted, cross-platform, cross-
-compiling toolchain, and building modern tools for developers. Our
-mission is to fight software complexity.
-
+We're a small team creating a self-hosted, cross-platform, cross-compiling toolchain, and building modern tools for developers. Our mission is to fight software complexity.
 
 ### Requirements
 
@@ -41,13 +35,10 @@ See the main Careers entry to get a sense of who we are.
 
 ## We Offer
 
-Lean FOSS salary, coffee subsidy, the chance to change the world.
-We’re a tight-knit group and have a lot of fun.
+Lean FOSS salary, coffee subsidy, the chance to change the world. We’re a tight-knit group and have a lot of fun.
 
 ## What's Next
 
-Please submit your resume, cover letter, and any relevant links (e.g.
-Github/bitbucket/personal website). Please, no phone calls, drop-ins, or
-recruiters.
+Please submit your resume, cover letter, and any relevant links (e.g. Github/bitbucket/personal website). Please, no phone calls, drop-ins, or recruiters.
 
 [Apply Here](mailto:gregg@redlake-tech.com)
